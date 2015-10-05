@@ -14,6 +14,7 @@ published: true
 
 "This is awesome"
 
+<b>Testing</b>
 > My Quote rules
 
 ```
