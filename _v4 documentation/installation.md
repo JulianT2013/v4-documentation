@@ -12,7 +12,7 @@ published: true
 
 ## Heading 2
 
-This is awesome
+"This is awesome"
 
 > My Quote rules
 
