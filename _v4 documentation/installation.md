@@ -12,19 +12,19 @@ published: true
 
 ## Heading 2
 
-"This is awesome"
+"This is awesome
 
 <b>Testing</b>
 > My Quote rules
 
 ```
-&lt;html&gt;
-   &lt;body&gt;Tag&lt;/body&gt;
-&lt;/html&gt;
+<html>
+   <body>Tag</body>
+</html>
 
-&lt;?php 
+<?php 
 
-echo &#039;print&#039;; exit;
+echo 'print'; exit;
 ```
 
 ![alt text](https://gpdfv4.pv/app/uploads/2015/10/andromeda.jpg "Space Jam")
