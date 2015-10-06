@@ -8,4 +8,4 @@ What that means is you can easily contribute to the Gravity PDF documentation. I
 
 ## Licensing
 
-All documentation located in this repository is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+All documentation located in this repository is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Images are not included under this license as they are hosted elsewhere.
