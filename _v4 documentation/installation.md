@@ -10,14 +10,14 @@ published: true
 ---
 Gravity PDF can be run on most shared web hosting, however there are some restrictions in place to prevent breakages. The easiest way to check if your web server meets the criteria is to [install](#installation) the plugin. The software has multiple checks in place when activating and will let you know if there are any issues than need addressing. 
 
-### Plugin Requirements [#requirements](#requirements){#requirements}
+### Plugin Requirements [(#requirements)](#requirements){#requirements}
 
 
-### Installation [#installation](#installation){#installation}
+### Installation [(#installation)](#installation){#installation}
 
-#### Automatically [#automatically](#automatically){#automatically}
+#### Automatically [(#automatically)](#automatically){#automatically}
 
-#### Manually [#manual](#manual){#manual}
+#### Manually [(#manual)](#manual){#manual}
 
-#### FTP [#ftp](#ftp){#ftp}
+#### FTP [(#ftp)](#ftp){#ftp}
 
