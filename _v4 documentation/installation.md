@@ -8,25 +8,5 @@ layout: v4_docs
 permalink: https://gpdfv4.pv/v4-docs/installation/
 published: true
 ---
-### Testing Markdown
-
-## Heading 2
-
-"This is awesome
-
-<b>Testing</b>
-> My Quote rules
-
-```
-<html>
-   <body>Tag</body>
-</html>
-
-<?php 
-
-echo 'print'; exit;
-```
-
-![alt text](https://gpdfv4.pv/app/uploads/2015/10/andromeda.jpg "Space Jam")
-
-Single quote's are good too!
+Header 1            {#header1}
+========
