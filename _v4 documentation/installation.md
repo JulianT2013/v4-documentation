@@ -41,4 +41,4 @@ There are multiple ways to install Gravity PDF but the simplest option is to do 
 
 
 
-[^1]: Gravity PDF is not an official Gravity Forms add on - we're an independent company who love how easy the software is. We have no control over their pricing model and we do *not* provide support for their software - you'll want to use [their official support channels](https://www.gravityhelp.com/support/) for that. 
+[^1]: Gravity PDF is not an official Gravity Forms add on - we're an independent company who love how powerful Gravity Forms is. We have no control over their pricing model and we do *not* provide support for their software - you'll want to use [their official support channels](https://www.gravityhelp.com/support/) for that. 
