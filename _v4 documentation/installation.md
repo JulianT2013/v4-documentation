@@ -13,10 +13,12 @@ Gravity PDF can be run on most shared web hosting, however there are some restri
 ### Plugin Requirements [(#requirements)](#requirements){#requirements}
 
 **Software Requirements**
+
 + [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9 recommended)
 + WordPress 3.9+ (WordPress 4.2 recommended)
 
 **Server Requirements**
+
 + PHP 5.3+ (PHP 5.6 recommended)
 + [MB String](http://www.php.net/manual/en/mbstring.installation.php) with Regex enabled (`--enable-mbregex`)
 + [GD Library](http://www.php.net/manual/en/image.installation.php)
