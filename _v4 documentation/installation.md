@@ -28,6 +28,12 @@ Gravity PDF is a **third party extension**[^1] for the popular premium forms plu
 ### Installation [(#installation)](#installation){#installation}
 There are multiple ways to install Gravity PDF but the simplest option is to do so via your WordPress admin area.
 
+**Jump to section**
+
+1. [Automatic Installation](#automatic) (recommended)
+1. [Manual Installation](#manual)
+1. [FTP Installation](#ftp)
+
 #### Automatically [(#automatic)](#automatic){#automatic}
 
 1. Login to your WordPress admin area and navigate to the `Plugins -> Add New` page.
