@@ -26,15 +26,14 @@ Gravity PDF is a **third party extension**[^1] for the popular premium forms plu
 * 64MB+ WP Memory (**128MB+ recommended**)
 
 ### Installation [(#installation)](#installation){#installation}
-The simplest way to install Gravity PDF is via your WordPress Admin area.
+There are multiple ways to install Gravity PDF but the simplest option is to do so via your WordPress admin area.
 
-1. Login to your WordPress Admin area and navigate to the `Plugins -> Add New` page.
+#### Automatically [(#automatically)](#automatically){#automatically}
+
+1. Login to your WordPress admin area and navigate to the `Plugins -> Add New` page.
 1. Use the search bar in the top right hand corner of the plugins page to search for `Gravity PDF`
 1. Click the `Install Now` button on the Gravity PDF plugin to confirm the installation. 
 1. Once the installation has completed select the `Activate Now` link. 
-
-
-#### Automatically [(#automatically)](#automatically){#automatically}
 
 #### Manually [(#manual)](#manual){#manual}
 
