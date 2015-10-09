@@ -15,7 +15,7 @@ Gravity PDF is a **third party extension** for the popular premium forms plugin,
 
 **Software Requirements**
 
-* [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9 recommended)
+* [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9 recommended). Any license type will work.
 * WordPress 3.9+ (WordPress 4.2 recommended)
 
 **Server Requirements**
