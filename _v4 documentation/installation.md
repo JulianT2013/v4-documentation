@@ -8,7 +8,9 @@ layout: v4_docs
 permalink: https://gpdfv4.pv/v4-docs/installation/
 published: true
 ---
-Gravity PDF can be run on most shared web hosting, however there are some restrictions in place to prevent problems. The easiest way to check if your web server meets the criteria is to [install](#installation) the plugin. The software has multiple checks in place when activating and will let you know if there are any issues than need addressing. 
+![Gravity PDF 4.x Welcome Screen](https://gpdfv4.pv/app/uploads/2015/10/welcome-screen.png)
+
+Gravity PDF can be run on most shared web hosting, however there are some restrictions in place to prevent problems. The easiest way to check if your web server meets the criteria is to [install](#install) the plugin. The software has multiple checks in place when activating and will let you know if there are any issues than need addressing. 
 
 ### Plugin Requirements [(#requirements)](#requirements){#requirements}
 Gravity PDF is a **third party extension**[^1] for the popular premium forms plugin, [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). The software cannot function without it. You'll need to [purchase a license](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) for Gravity Forms before you can use Gravity PDF.
@@ -25,7 +27,7 @@ Gravity PDF is a **third party extension**[^1] for the popular premium forms plu
 * [GD Library](http://www.php.net/manual/en/image.installation.php)
 * 64MB+ WP Memory (**128MB+ recommended**)
 
-### Installation [(#installation)](#installation){#installation}
+### Installation [(#install)](#install){#install}
 There are multiple ways to install Gravity PDF but the simplest option is to do so via your WordPress admin area.
 
 **Jump to section**
@@ -37,12 +39,15 @@ There are multiple ways to install Gravity PDF but the simplest option is to do 
 #### Automatically [(#automatic)](#automatic){#automatic}
 
 1. Login to your WordPress admin area and navigate to the `Plugins -> Add New` page.
-1. Use the search bar in the top right hand corner of the plugins page to search for `Gravity PDF`
+1. Use the search bar in the top right hand corner of the plugins page to search for `Gravity PDF`.
+   ![Plugin Installation Screen](https://gpdfv4.pv/app/uploads/2015/10/automatic-install.png)
 1. Click the `Install Now` button on the Gravity PDF plugin to confirm the installation. 
 1. Once the installation has completed select the `Activate Now` link. 
+   ![Activate Plugin](https://gpdfv4.pv/app/uploads/2015/10/activate-gravity-pdf.png)
 
 #### Manually [(#manual)](#manual){#manual}
 1. Access the plugin's [WordPress repository](https://wordpress.org/plugins/gravity-forms-pdf-extended/) and select the `Download Version 4.x.x` button.
+   ![Download the latest version of the plugin](https://gpdfv4.pv/app/uploads/2015/10/download-plugin.png)
 1. In your WordPress admin area navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugin` title)
 1. Click the `Browse` button and select the zip file downloaded in step one.
 1. Once complete, select the `Activate Now` link.
