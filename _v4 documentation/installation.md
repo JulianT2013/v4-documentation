@@ -36,7 +36,7 @@ There are multiple ways to install Gravity PDF but the simplest option is to do 
 1. [Manual Installation](#manual)
 1. [FTP Installation](#ftp)
 
-#### Automatically [(#automatic)](#automatic){#automatic}
+#### Automatic Installation [(#automatic)](#automatic){#automatic}
 
 Search for the plugin directly from your WordPress admin area and install it with a single click.
 
@@ -47,7 +47,7 @@ Search for the plugin directly from your WordPress admin area and install it wit
 1. Once the installation has completed select the `Activate Now` link. 
    ![Activate Plugin](https://gpdfv4.pv/app/uploads/2015/10/activate-gravity-pdf.png)
 
-#### Manually [(#manual)](#manual){#manual}
+#### Manually Installation [(#manual)](#manual){#manual}
 
 Download the plugin zip file from WordPress.org and upload through your WordPress admin area[^2].
 
@@ -59,7 +59,7 @@ Download the plugin zip file from WordPress.org and upload through your WordPres
 1. Once complete, select the `Activate Now` link.
 ![Activate Plugin](https://gpdfv4.pv/app/uploads/2015/10/activate-gravity-pdf.png)
 
-#### FTP [(#ftp)](#ftp){#ftp}
+#### FTP Installation [(#ftp)](#ftp){#ftp}
 
 Download the plugin zip file from WordPress.org, unzip and upload to your plugins directory with your favourite FTP client.
 
