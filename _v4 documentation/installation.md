@@ -52,12 +52,11 @@ Search for the plugin directly from your WordPress admin area and install it wit
 Download the plugin zip file from WordPress.org and upload through your WordPress admin area[^2].
 
 1. Access the plugin's [WordPress repository](https://wordpress.org/plugins/gravity-forms-pdf-extended/) and select the `Download Version 4.x.x` button.
-   ![Download the latest version of the plugin](https://gpdfv4.pv/app/uploads/2015/10/download-plugin.png)
 1. In your WordPress admin area, navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugin` title)
 1. Click the `Browse` button and select the zip file downloaded in step one.
-   ![Manual Plugin Installation](https://gpdfv4.pv/app/uploads/2015/10/https://gpdfv4.pv/app/uploads/2015/10/manual-plugin-installation.png)
+   ![Manual Plugin Installation](https://gpdfv4.pv/app/uploads/2015/10/manual-plugin-installation.png)
 1. Once complete, select the `Activate Now` link.
-![Activate Plugin](https://gpdfv4.pv/app/uploads/2015/10/activate-gravity-pdf.png)
+   ![Activate Plugin](https://gpdfv4.pv/app/uploads/2015/10/activate-gravity-pdf.png)
 
 #### FTP Installation [(#ftp)](#ftp){#ftp}
 
