@@ -56,7 +56,7 @@ Download the plugin zip file from WordPress.org and upload through your WordPres
 1. In your WordPress admin area, navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugins` title)
 1. Click the `Browse` button and select the zip file downloaded in step one. 
    ![Manual Plugin Installation](https://gpdfv4.pv/app/uploads/2015/10/manual-plugin-installation.png)
-1. Click the `Install Now` button and wait. Depending on your internet speed it could take some time to upload.
+1. Click the `Install Now` button and wait. Depending on your internet speed, it could take some time to upload.
 1. Once installed, select the `Activate Now` link.
 
 #### FTP Installation [(#ftp)](#ftp){#ftp}
