@@ -61,7 +61,7 @@ Download the plugin zip file from WordPress.org and upload through your WordPres
 
 #### FTP Installation [(#ftp)](#ftp){#ftp}
 
-Download the plugin zip file from WordPress.org, unzip and upload to your plugins directory with your favourite FTP client.
+Upload the Gravity PDF files to the WordPress plugins directory using your favourite FTP client.
 
 1. Navigate to the plugin's [WordPress repository](https://wordpress.org/plugins/gravity-forms-pdf-extended/) and select the `Download Version 4.x.x` button.
 1. Once downloaded, unzip the plugin folder. A folder called `gravity-forms-pdf-extended` will be extracted and this is what you should upload to your FTP server.
