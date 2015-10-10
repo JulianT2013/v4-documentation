@@ -48,8 +48,9 @@ There are multiple ways to install Gravity PDF but the simplest option is to do 
 #### Manually [(#manual)](#manual){#manual}
 1. Access the plugin's [WordPress repository](https://wordpress.org/plugins/gravity-forms-pdf-extended/) and select the `Download Version 4.x.x` button.
    ![Download the latest version of the plugin](https://gpdfv4.pv/app/uploads/2015/10/download-plugin.png)
-1. In your WordPress admin area navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugin` title)
+1. In your WordPress admin area, navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugin` title)
 1. Click the `Browse` button and select the zip file downloaded in step one.
+   ![Manual Plugin Installation](https://gpdfv4.pv/app/uploads/2015/10/https://gpdfv4.pv/app/uploads/2015/10/manual-plugin-installation.png)
 1. Once complete, select the `Activate Now` link.
 
 The plugin zip file is just over 18MB. Some web hosting providers are not configured to accept file uploads of that size. If this is the case you should use the [automatic](#automatic) or [FTP](#ftp) method of installation.
