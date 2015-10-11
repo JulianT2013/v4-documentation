@@ -23,12 +23,12 @@ Gravity PDF can be run on most shared web hosting, however there are some restri
 
 **Software Requirements**
 
-* [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9 recommended). Any license type will work.
-* WordPress 3.9+ (WordPress 4.2 recommended)
+* [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9+ recommended). Any license type will work.
+* WordPress 3.9+ (WordPress 4.2+ recommended)
 
 **Server Requirements**
 
-* PHP 5.3+ (PHP 5.6 recommended)
+* PHP 5.3+ (PHP 5.6+ recommended)
 * [MB String](http://www.php.net/manual/en/mbstring.installation.php) with Regex enabled (`--enable-mbregex`)
 * [GD Library](http://www.php.net/manual/en/image.installation.php)
 * 64MB+ WP Memory (**128MB+ recommended**)
@@ -62,7 +62,7 @@ Download the plugin zip file from WordPress.org and upload through your WordPres
 1. In your WordPress admin area, navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugins` title)
 1. Click the `Browse` button and select the zip file downloaded in step one. 
    ![Manual Plugin Installation](https://gpdfv4.pv/app/uploads/2015/10/manual-plugin-installation.png)
-1. Click the `Install Now` button and wait. Depending on your internet speed, it could take some time to upload.
+1. Click the `Install Now` button and wait[^2]. Depending on your internet speed, it could take some time to upload.
 1. Once installed, select the `Activate Now` link.
 
 #### FTP Installation [(#ftp)](#ftp){#ftp}
