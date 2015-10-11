@@ -27,8 +27,10 @@ From here you'll be able to control the PDF defaults like paper size, font and t
 
 Install additional fonts for use in your PDF documents, prepare your system for custom PDF templates and uninstall the plugin. 
 
-##### Setup Custom Templates [(#custom-templates)](#custom-templates){#custom-templates}
+Setup Custom Templates [(#custom-templates)](#custom-templates){#custom-templates}
+:   This is the custom template definition
 
-##### Fonts [(#fonts)](#fonts){#fonts}
+Fonts [(#fonts)](#fonts){#fonts}
+:   This is the font definition
 
 ### Help Tab [(#help)](#help){#help}
