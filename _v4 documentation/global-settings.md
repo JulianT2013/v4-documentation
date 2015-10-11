@@ -30,7 +30,8 @@ Custom Paper Size [(#custom-paper-size)](#custom-paper-size){#custom-paper-size}
 
 Default Template [(#default-template)](#default-template){#default-template}
 :    Use this option to set the default template for all [individual PDF settings](#) – templates control the PDF design and layout. Gravity PDF comes with five **completely-free** templates for you to choose from. Upon changing your selection using the drop down box an image will load showing you what the chosen template looks like. 
-:    The default template is *Zadani* – a minimalist business-style template that will generate a well-spaced document great for printing. Additional templates can be purchased from our [theme shop](#). Developers with HTML, CSS and a little PHP knowledge can also [create their own designs and layouts](#). Alternatively, the Gravity PDF team offers [design and integration services](#) for those looking for a custom solution – we can even [integrate an exiting PDF document](#).
+:    The default template is *Zadani* – a minimalist business-style template that will generate a well-spaced document great for printing. Additional templates can be purchased from our [theme shop](#). 
+:    Developers with HTML, CSS and a little PHP knowledge can also [create their own designs and layouts](#). Alternatively, the Gravity PDF team offers [design and integration services](#) for those looking for a custom solution – we can even [integrate an exiting PDF document](#).
 
 Default Font Type [(#font-type)](#font-type){#font-size}
 :    font-size
