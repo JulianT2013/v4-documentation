@@ -23,13 +23,13 @@ From here you'll be able to control the PDF defaults like paper size, font and t
 
 Default Paper Size [(#paper-size)](#paper-size){#paper-size}
 :    Use this option to set the paper size for all [individual PDF settings](#). The default selection is A4 (210 x 297mm), but other common paper sizes – such as US Letter and Legal – are easily accessible. Also preloaded are the ISO-standard *A*, *B* and *C* paper sizes, as well as *RA* and *SRA* sizes. 
-:    If none of the preloaded options suit you can also select *Custom Paper Size* and control the width and height in millimetres or inches. 
+:    If none of the preloaded options suit you can also select *Custom Paper Size* (see [#custom-paper-size](#custom-paper-size) below) and control the width and height in millimetres or inches. 
 
 Custom Paper Size [(#custom-paper-size)](#custom-paper-size){#custom-paper-size}
-:    This field is hidden until you select the *Custom Template Option* from the *Default Paper Size* field (see [#paper-size](#paper-size) above). It allows you to control the exact paper size of your document in millimetres or inches. When displayed, this field is required and only positive numbers are permitted in the width and height inputs.
+:    This field is hidden until you select the *Custom Template Option* from the *Default Paper Size* field (see [#paper-size](#paper-size) above). It allows you to control the exact paper size of your document – in millimetres or inches. When displayed, this field is required and only positive numbers are permitted in the width and height inputs.
 
 Default Template [(#default-template)](#default-template){#default-template}
-:    default-template
+:    Use this option to set the default template for all [individual PDF settings](#) – templates control the PDF design and layout. Gravity PDF comes with five **completely-free** templates for you to choose from. Upon changing your selection an image will load showing you what the new design looks like. The default template is *Zadani* – a minimalist business-style template that will generate a well-spaced document great for printing. Additional templates can be purchased from our [theme shop](#). Developers with HTML, CSS and a little PHP knowledge can also [create their own designs and layouts](#). Alternatively, the Gravity PDF team offers [design and integration services](#) for those looking for a custom solution – we can even [integrate an exiting PDF document](#).
 
 Default Font Type [(#font-type)](#font-type){#font-size}
 :    font-size
