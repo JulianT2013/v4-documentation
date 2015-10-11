@@ -12,12 +12,14 @@ published: true
 
 ### Introduction [(#introduction)](#introduction){#introduction}
 
-Gravity PDF is a **free** WordPress plugin built for the popular form builder software, [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). It allows you to generate PDF documents that contains the data captured from your users through Gravity Forms. The look and feel of the PDF is controlled through templates. The software comes with five **free** designs, but you can also [purchase additional templates from our theme shop](#), [build your own using HTML and CSS](#) or have our team [custom-build one for you](#) - we can even [auto-complete existing PDF documents](#) like government forms. 
+Gravity PDF is a **free** WordPress plugin built for the popular form builder software, [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). It allows you to generate PDF documents that contains the data captured from users through Gravity Forms. 
+
+The look and feel of the PDF is controlled through templates. The software comes with five **free** designs, but you can also [purchase additional templates from our theme shop](#), [build your own using HTML and CSS](#) or have our team [custom-build one for you](#) - we can even [auto-complete existing PDF documents](#) like government forms. 
 
 ### Plugin Requirements [(#requirements)](#requirements){#requirements}
 Gravity PDF can be run on most shared web hosting, however there are some restrictions in place to prevent problems. The easiest way to check if your web server meets the criteria is to [install](#install) the plugin. The software has multiple checks in place when activating and will let you know if there are any issues than need addressing. 
 
-**Note:** Gravity PDF is a **third party extension**[^1] for [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). The software cannot function without it. You'll need to [purchase a license](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) for Gravity Forms before you can use Gravity PDF - any license type will work.
+> **Note:** Gravity PDF is a **third party extension**[^1] for [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). The software cannot function without it. You'll need to [purchase a license](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) for Gravity Forms before you can use Gravity PDF - any license type will work.
 
 **Software Requirements**
 
