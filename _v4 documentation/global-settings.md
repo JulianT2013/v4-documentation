@@ -13,7 +13,7 @@ Gravity PDF is fully integrated into Gravity Forms. The PDF settings are located
 
 The PDF settings are split into three separate tabs: 
 
-* [General](#general): Control defaults and security
+* [General](#general): The basics (including PDF defaults) and security
 * [Tools](#tools): Power user actions 
 * [Help](#help): Search our documentation for assistance
 
@@ -22,7 +22,11 @@ The PDF settings are split into three separate tabs:
 From here you'll be able to control the PDF defaults like paper size, font and template. You also have advanced options giving you granular control over the security protocols. 
 
 Default Paper Size [(#paper-size)](#paper-size){#paper-size}
-:    Paper Size
+:    Use this option to set the paper size for all [individual PDF settings](#). The default selection is A4 (210 x 297mm), but other common paper sizes – such as US Letter and Legal – are easily accessible. Also preloaded are the ISO-standard *A*, *B* and *C* paper sizes, as well as *RA* and *SRA* sizes. 
+:    If none of the preloaded options suit you can also select *Custom Paper Size* and control the width and height in millimetres or inches. 
+
+Custom Paper Size [(#custom-paper-size)](#custom-paper-size){#custom-paper-size}
+:    This field is hidden until you select the *Custom Template Option* from the *Default Paper Size* field (see [#paper-size](#paper-size) above). It allows you to control the exact paper size of your document in millimetres or inches. When displayed, this field is required and only positive numbers are permitted in the width and height inputs.
 
 Default Template [(#default-template)](#default-template){#default-template}
 :    default-template
