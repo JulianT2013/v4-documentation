@@ -61,6 +61,9 @@ Setup Custom Templates [(#custom-templates)](#custom-templates){#custom-template
 Fonts [(#fonts)](#fonts){#fonts}
 :   This is the font definition
 
+Uninstall [(#uninstall)](#uninstall){#uninstall}
+:   Uninstall
+
 ### Help Tab [(#help)](#help){#help}
 
 Details about the help tab to be refined...
