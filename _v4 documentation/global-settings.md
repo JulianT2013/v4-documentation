@@ -21,7 +21,35 @@ The PDF settings are split into three separate tabs:
 
 From here you'll be able to control the PDF defaults like paper size, font and template. You also have advanced options giving you granular control over the security protocols. 
 
+Default Paper Size [(#paper-size)](#paper-size){#paper-size}
+:    Paper Size
 
+Default Template [(#default-template)](#default-template){#default-template}
+:    default-template
+
+Default Font Type [(#font-type)](#font-type){#font-size}
+:    font-size
+
+Default Font Colour [(#font-colour)](#font-colour){#font-colour}
+:    font-colour
+
+Reverse Text (RTL) [(#rtl)](#rtl){#rtl}
+:    rtl
+
+Entry View [(#view)](#view){#view}
+:    view
+
+Show What's New [(#whats-new)](#whats-new){#whats-new}
+:    whats-new
+
+User Restriction [(#user-restriction)](#user-restriction){#user-restriction}
+:    user-restriction
+
+Restrict Owner [(#restrict-owner)](#restrict-owner){#restrict-owner}
+:    restrict-owner
+
+Logged Out Timeout [(#logged-out-timeout)](#logged-out-timeout){#logged-out-timeout}
+:    logged-out-timeout
 
 ### Tools Tab [(#tools)](#tools){#tools}
 
@@ -34,3 +62,5 @@ Fonts [(#fonts)](#fonts){#fonts}
 :   This is the font definition
 
 ### Help Tab [(#help)](#help){#help}
+
+Details about the help tab to be refined...
