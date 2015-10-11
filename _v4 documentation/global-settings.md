@@ -49,7 +49,8 @@ Entry View [(#view)](#view){#view}
 :    Once a PDF has been created for a particular form a PDF link is added to the form's entry list page. When the link is selected this option determines if the PDF will be viewed in your browser or prompted for download. By default this option is set to `View`.
 
 Show What's New [(#whats-new)](#whats-new){#whats-new}
-:    When the plugin is upgraded to a new major release (4.x) we can automatically direct you to our *What's New* to give you an overview of the new features in this release. We've made this feature as unobtrusive as possible, which is why bug fixes and security released (4.0.x) are excluded from triggering this behaviour. Also, only users that can activate plugins will be redirected (usually site administrators and, if running a multisite, network super admins). Deactivating then reactivating the plugin won't trigger the redirect either. 
+:    When the plugin is upgraded to a new major release (4.x) we can automatically direct you to our *What's New* to give you an overview of the new features. 
+:    We've made this feature as unobtrusive as possible, which is why bug fixes and security released (4.0.x) are excluded from triggering this behaviour. Also, only users that can activate plugins will be redirected (usually site administrators and, if running a multisite, network super admins). Deactivating then reactivating the plugin won't trigger the redirect either. 
 :    By default this option is set to `Enable`. 
 
 #### Advanced Options [(#general-advanced-options)](#general-advanced-options){#general-advanced-options}
