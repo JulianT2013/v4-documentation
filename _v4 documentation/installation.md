@@ -62,17 +62,18 @@ Download the plugin zip file from WordPress.org and upload through your WordPres
 1. In your WordPress admin area, navigate to the `Plugins -> Add New` page then select the `Upload Plugin` button (located to the right of the `Add Plugins` title)
 1. Click the `Browse` button and select the zip file downloaded in step one. 
    ![Manual Plugin Installation](https://gpdfv4.pv/app/uploads/2015/10/manual-plugin-installation.png)
-1. Click the `Install Now` button and wait[^2]. Depending on your internet speed, it could take some time to upload.
+1. Click the `Install Now` button and wait. Depending on your internet speed, it could take some time to upload.
 1. Once installed, select the `Activate Now` link.
 
 #### FTP Installation [(#ftp)](#ftp){#ftp}
 
-Upload the Gravity PDF files to the WordPress plugins directory using your favourite FTP client.
+Upload the Gravity PDF plugin files to the WordPress plugins directory using your favourite FTP client.
 
 1. Navigate to the plugin's [WordPress repository](https://wordpress.org/plugins/gravity-forms-pdf-extended/) and select the `Download Version 4.x.x` button.
 1. Once downloaded, unzip the plugin folder. A folder called `gravity-forms-pdf-extended` will be extracted and this is what you should upload to your FTP server.
 1. Open your favourite FTP client (we recommend [Filezilla](https://filezilla-project.org/)) and enter your hostname, username and password. If you are unsure where to get these details you should contact your web hosting provider for assistance.
-1. Once logged in, navigate to your WordPress plugin directory (usually `/wp-content/plugins/`) and upload the `gravity-forms-pdf-extended` folder. 
+1. Once logged in, navigate to your WordPress plugin directory (usually `/wp-content/plugins/`) and upload the `gravity-forms-pdf-extended` folder. If a directory called `gravity-forms-pdf-extended` already exists, delete it before uploading.
+   ![Upload plugin via FTP](https://gpdfv4.pv/app/uploads/2015/10/ftp-upload.png)
 1. Finally activate the plugin via your WordPress admin plugins page `Plugins -> Installed Plugins`
 
 
