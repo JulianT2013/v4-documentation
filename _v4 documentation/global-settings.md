@@ -37,19 +37,21 @@ Default Font Type [(#font-type)](#font-type){#font-size}
 :    Use this option to set the default font for all [individual PDF settings](#). Gravity PDF ships with fonts for the majority of languages worldwide and uses the unicode typeface *DejaVu Sans Condensed* by default. For languages that aren't supported out of the box, you can use our [Font Installer](#fonts) to upload TTF or OTF font files for use in PDFs. 
 
 Default Font Size [(#font-size)](#font-size){#font-size}
-:    Use this option to set the default font size for all [individual PDF settings](#). The default is set to 12pt. Increase or decrease to suit your selected font type.
+:    Use this option to set the default font size for all [individual PDF settings](#). The default is set to 12pt. Increase or decrease to suit your font type.
 
 Default Font Colour [(#font-colour)](#font-colour){#font-colour}
 :    Use this option to set the default font colour for all [individual PDF settings](#). The default is set to black (hex colour code #000000).
 
 Reverse Text (RTL) [(#rtl)](#rtl){#rtl}
-:    Use this option to default the text direction for all [individual PDF settings](#). Many languages worldwide write from right to left. Arabic and Hebrew script are examples of this. The default is set to *No*, disabling RTL support.
+:    Use this option to default the text direction for all [individual PDF settings](#). Many languages worldwide are written from right to left. Arabic and Hebrew script are examples of this. The default is set to *No*, disabling RTL support.
 
 Entry View [(#view)](#view){#view}
-:    view
+:    Once a PDF has been created for a particular form a PDF link is added to the form's entry list page. When the link is selected this option determines if the PDF will be viewed in your browser or prompted for download. By default this option is set to `View`.
 
 Show What's New [(#whats-new)](#whats-new){#whats-new}
 :    whats-new
+
+#### Advanced Options [(#general-advanced-options)](#general-advanced-options){#general-advanced-options}
 
 User Restriction [(#user-restriction)](#user-restriction){#user-restriction}
 :    user-restriction
