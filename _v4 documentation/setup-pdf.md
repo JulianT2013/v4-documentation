@@ -73,6 +73,8 @@ Conditional Logic [(#conditional-logic)](#conditional-logic){#conditional-logic}
 
 #### Appearance Tab [(#appearance-tab)](#appearance-tab){#appearance-tab}
 
+Intro Here
+
 Paper Size [(#paper-size)](#paper-size){#paper-size}
 :    info
 
@@ -93,4 +95,26 @@ Reverse Text (RTL) [(#rtl)](#rtl){#rtl}
 
 #### Template Tab [(#template-tab)](#template-tab){#template-tab}
 
+Intro Here
+
 #### Advanced Tab [(#advanced-tab)](#advanced-tab){#advanced-tab}
+
+Intro Here
+
+Format [(#format)](#format){#format}
+:    info
+
+Enable PDF Security [(#pdf-security)](#pdf-security){#pdf-security}
+:    info
+
+Password [(#password)](#password){#password}
+:    info
+
+Privileges [(#privileges)](#privileges){#privileges}
+:    info
+
+Image DPI [(#image-dpi)](#image-dpi){#image-dpi}
+:    info
+
+Always Save PDF [(#save-pdf)](#save-pdf){#save-pdf}
+:    info
