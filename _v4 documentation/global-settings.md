@@ -68,7 +68,8 @@ Restrict Owner [(#restrict-owner)](#restrict-owner){#restrict-owner}
 :    The default option is `No`.
 
 Logged Out Timeout [(#logged-out-timeout)](#logged-out-timeout){#logged-out-timeout}
-:    logged-out-timeout
+:    When a logged out user attempts to view a PDF the plugin will try and match their current IP address against the one saved with the Gravity Forms entry. If they match they get access. However, this method isn't a secure long-term option [because IP addresses can change](http://whatismyipaddress.com/keeps-changing). To prevent unauthorised access we implemented a timeout feature. After X amount of time the user no longer has access to the generated PDF.
+:    By default this timeout is set to 30 minutes. **While it is not recommended** you can disable this feature by setting the timeout to zero (0).
 
 ### Tools Tab [(#tools)](#tools){#tools}
 
