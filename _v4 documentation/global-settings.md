@@ -57,13 +57,15 @@ Show What's New [(#whats-new)](#whats-new){#whats-new}
 The advanced options focus on PDF security. The security settings are configured with sane defaults and in most cases you'll not want to modify this behaviour. Our [security documentation page](#) focuses or the finer points of the plugin's security protocols.
 
 User Restriction [(#user-restriction)](#user-restriction){#user-restriction}
-:    Logged in users without the `gravity_forms_view_entries` capability are prevented from accessing any PDF if they aren't the original owner – the owner is who filled in the form entry. If you leave the setting untouched only site administrators and network super admins (if running a multisite) can view the generated PDFs. 
-:    To change this behaviour you can assign capabilities that other roles have access to. For instance, if you wanted the [*Editor* role](https://codex.wordpress.org/Roles_and_Capabilities#Editor) to have access to PDFs too you could add the `edit_pages` capability.
-:    Alternatively, instead of adding additional capabilities you could use a role editing plugin like [User Role Editor](https://wordpress.org/plugins/user-role-editor/) to give an existing role the `gravity_forms_view_entries` capability. Choose the best solution for your use case.
+:    Logged in users without the `gravity_forms_view_entries` capability are prevented from accessing any PDF if they aren't the original owner – the owner is who filled in the form entry originally. If you leave the setting untouched only site administrators and network super admins (if running a multisite) can view the generated PDFs. 
+:    To change this behaviour you can assign capabilities that other roles have access to. For instance, if you wanted the [*Editor* role](https://codex.wordpress.org/Roles_and_Capabilities#Editor) to have access to PDFs you could add the `edit_pages` capability.
+:    Alternatively, instead of adding additional capabilities to this field you could use a role editing plugin like [User Role Editor](https://wordpress.org/plugins/user-role-editor/) to give an existing role the `gravity_forms_view_entries` capability. Choose the best solution for your use case.
 :    More information about WordPress roles and capabilities [can be found in the WordPress codex](https://codex.wordpress.org/Roles_and_Capabilities).
 
 Restrict Owner [(#restrict-owner)](#restrict-owner){#restrict-owner}
-:    restrict-owner
+:    This option allows you to prevent the form entry owner – the user who filled out the Gravity Form – from viewing the generated PDF. This included logged out and logged in users – with the exception of a logged in user who has any of the capabilities listed in the [#user-restriction](#user-restriction) field. 
+:    This option has no effect on PDFs sent as attachments in Gravity Form notifications, but does effect the `[gravitypdf]` shortcode.
+:    The default option is `No`.
 
 Logged Out Timeout [(#logged-out-timeout)](#logged-out-timeout){#logged-out-timeout}
 :    logged-out-timeout
