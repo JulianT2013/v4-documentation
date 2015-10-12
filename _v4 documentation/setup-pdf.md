@@ -73,6 +73,24 @@ Conditional Logic [(#conditional-logic)](#conditional-logic){#conditional-logic}
 
 #### Appearance Tab [(#appearance-tab)](#appearance-tab){#appearance-tab}
 
+Paper Size [(#paper-size)](#paper-size){#paper-size}
+:    info
+
+Orientation [(#orientation)](#orientation){#orientation}
+:    info
+
+Font [(#font)](#font){#font}
+:    info
+
+Font Size [(#font-size)](#font-size){#font-size}
+:    info
+
+Font Colour [(#font-colour)](#font-colour){#font-colour}
+:    info
+
+Reverse Text (RTL) [(#rtl)](#rtl){#rtl}
+:    info
+
 #### Template Tab [(#template-tab)](#template-tab){#template-tab}
 
 #### Advanced Tab [(#advanced-tab)](#advanced-tab){#advanced-tab}
