@@ -10,20 +10,21 @@ published: true
 ---
 ![Gravity PDF 4.x Welcome Screen](https://gpdfv4.pv/app/uploads/2015/10/welcome-screen.png)
 
-### Introduction [(#introduction)](#introduction){#introduction}
-
-Gravity PDF is a **free** WordPress plugin built for the popular form builder software, [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). It allows you to generate PDF documents that contains the data captured from users through Gravity Forms. 
+Gravity PDF is a **free** WordPress plugin built for the popular premium form builder software, [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). It allows you to generate PDF documents that contain user-data captured with Gravity Forms. 
 
 The look and feel of the PDF is controlled through templates. The software comes with five **free** designs, but you can also [purchase additional templates from our theme shop](#), [build your own using HTML and CSS](#) or have our team [custom-build one for you](#) - we can even [auto-complete existing PDF documents](#) like government forms. 
 
-### Plugin Requirements [(#requirements)](#requirements){#requirements}
-Gravity PDF can be run on most shared web hosting, however there are some restrictions in place to prevent problems. The easiest way to check if your web server meets the criteria is to [install](#install) the plugin. The software has multiple checks in place when activating and will let you know if there are any issues than need addressing. 
+---
 
-> **Note:** Gravity PDF is a **third party extension**[^1] for [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). The software cannot function without it. You'll need to [purchase a license](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) for Gravity Forms before you can use Gravity PDF - any license type will work.
+### Plugin Requirements [#requirements](#requirements){#requirements}
+
+> Gravity PDF is a **third party extension**[^1] for [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). The software cannot function without it. You'll need to [purchase a license](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) for Gravity Forms before you can use Gravity PDF - any license type will work. [See more details about Gravity PDF's compatibility with Gravity Forms](https://gpdfv4.pv/v4-docs/gravity-forms-compatibility/).
+
+Gravity PDF can be run on most shared web hosting, however there are some restrictions in place to prevent problems. The easiest way to check if your web server meets the criteria is to [install](#install) the plugin. The software has multiple checks in place when activating and will let you know if there are any issues than need addressing. 
 
 **Software Requirements**
 
-* [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9+ recommended). Any license type will work.
+* [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9+ recommended). [Any license type will work](https://gpdfv4.pv/v4-docs/gravity-forms-compatibility/#gravityforms-licenses).
 * WordPress 3.9+ (WordPress 4.2+ recommended)
 
 **Server Requirements**
@@ -33,7 +34,7 @@ Gravity PDF can be run on most shared web hosting, however there are some restri
 * [GD Library](http://www.php.net/manual/en/image.installation.php)
 * 64MB+ WP Memory (**128MB+ recommended**)
 
-### Installation [(#install)](#install){#install}
+### Installation [#install](#install){#install}
 There are multiple ways to install Gravity PDF but the simplest option is to do so via your WordPress admin area.
 
 **Jump to section**
@@ -42,7 +43,9 @@ There are multiple ways to install Gravity PDF but the simplest option is to do 
 1. [Manual Installation](#manual)
 1. [FTP Installation](#ftp)
 
-#### Automatic Installation [(#automatic)](#automatic){#automatic}
+---
+
+#### Automatic Installation [#automatic](#automatic){#automatic}
 
 Search for the plugin directly from your WordPress admin area and install it with a single click.
 
@@ -53,7 +56,9 @@ Search for the plugin directly from your WordPress admin area and install it wit
 1. Once the installation has completed select the `Activate Now` link. 
    ![Activate Plugin](https://gpdfv4.pv/app/uploads/2015/10/activate-gravity-pdf.png)
 
-#### Manually Installation [(#manual)](#manual){#manual}
+---
+
+#### Manually Installation [#manual](#manual){#manual}
 
 Download the plugin zip file from WordPress.org and upload through your WordPress admin area[^2].
 
@@ -65,7 +70,9 @@ Download the plugin zip file from WordPress.org and upload through your WordPres
 1. Click the `Install Now` button and wait. Depending on your internet speed, it could take some time to upload.
 1. Once installed, select the `Activate Now` link.
 
-#### FTP Installation [(#ftp)](#ftp){#ftp}
+---
+
+#### FTP Installation [#ftp](#ftp){#ftp}
 
 Upload the Gravity PDF plugin files to the WordPress plugins directory using your favourite FTP client.
 
