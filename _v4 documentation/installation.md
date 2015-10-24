@@ -32,6 +32,7 @@ Gravity PDF can be run on most shared web hosting, however there are some restri
 * PHP 5.3+ (PHP 5.6+ recommended)
 * [MB String](http://www.php.net/manual/en/mbstring.installation.php) with Regex enabled (`--enable-mbregex`)
 * [GD Library](http://www.php.net/manual/en/image.installation.php)
+* [DOM](http://php.net/manual/en/intro.dom.php)
 * 64MB+ WP Memory (**128MB+ recommended**)
 
 ### Installation [#install](#install){#install}
