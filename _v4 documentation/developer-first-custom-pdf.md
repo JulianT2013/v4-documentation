@@ -1,7 +1,7 @@
 ---
 ID: 5233
 post_title: First Custom PDF
-author: Jake Jackson
+author: GravityBot
 post_date: 2015-10-28 03:42:52
 post_excerpt: ""
 layout: v4_docs
@@ -11,7 +11,7 @@ published: true
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-Before we jump right into the code behind custom templates we're going to discuss the architecture Gravity PDF uses to register and load templates, how multisite sites differ slightly from standard WordPress installations and the template hierarchy. 
+Before we jump right into the code, we're going to discuss the architecture Gravity PDF uses to register and load custom templates, how multisite sites differ from standard WordPress installations and briefly touch on the template hierarchy. 
 
 **Jump To Section**
 
@@ -26,24 +26,31 @@ Before we jump right into the code behind custom templates we're going to discus
 
 ### Working Directory [#working-directory](#working-directory){#working-directory}
 
+![The PDF_EXTENDED_TEMPLATES working directory](https://gpdfv4.pv/app/uploads/2015/11/pdf-working-directory.png){.aligncenter}
+
 When Gravity PDF is installed it automatically creates a folder called `PDF_EXTENDED_TEMPLATES` in your WordPress upload directory. This folder is used to store temporary files, fonts and custom PDF templates. Any PHP files in the root of this folder will be classified as a PDF template[^1] and the system will automatically register it. 
 
-> On a vanilla WordPress installation the full path to the `PDF_EXTENDED_TEMPLATES` directory is `/wp-content/uploads/PDF_EXTENDED_TEMPLATES`. The path is available via the `PDF_TEMPLATE_LOCATION` PHP constant.
+> On a vanilla WordPress installation the full path to the `PDF_EXTENDED_TEMPLATES` directory is `/wp-content/uploads/PDF_EXTENDED_TEMPLATES` but may be different if defining custom `WP_CONTENT_DIR` or `UPLOADS` constants (like we've done in the above screenshot).
 
 ### Preparing the Infrastructure [#preparing-the-infrastructure](#preparing-the-infrastructure){#preparing-the-infrastructure}
+
+![How to get your server ready for custom PDF templates](https://gpdfv4.pv/app/uploads/2015/11/setup-custom-templates.png)
 
 Running the [`Setup Custom Templates` tool function](#) from `Forms -> Settings -> PDF -> Tools` in your admin area will setup the required folder structure and automatically copy all the core templates to the `PDF_EXTENDED_TEMPLATES` directory so you can easily begin templating. Use one of the core templates in `PDF_EXTENDED_TEMPLATES` as a starting point and make all the changes you need. 
 
 #### Multisite Structure [#multisite-structure](#multisite-structure){#multisite-structure}
 
+![The PDF_EXTENDED_TEMPLATES multisite working directory](https://gpdfv4.pv/app/uploads/2015/11/multisite-working-directory.png){.aligncenter}
+
 To correctly handle multisite installations the plugin creates a directory in `PDF_EXTENDED_TEMPLATES` for each active multisite. The folders use the site ID parameter to determine which templates to load. For instance, site #5 will use the folder `/wp-content/uploads/PDF_EXTENDED_TEMPLATES/5/` for its templates. 
+
+![Example of where to find your multisite ID](https://gpdfv4.pv/app/uploads/2015/11/multisite-id.png){.aligncenter}
 
 The site ID can be found by looking at each site's `Edit` URL in the `Network Admin -> Sites` section of your admin area (you'll need to be logged in as a network administrator). Alternatively, the site ID column is automatically added to this page when using the [Multisite Enhancements](https://wordpress.org/plugins/multisite-enhancements/) plugin.
 
 #### Template Hierarchy [#template-hierarchy](#template-hierarchy){#template-hierarchy}
 
-When we designed the Gravity PDF template system we used the Theme hierarchy as a starting point. The plugin's core templates are like the parent theme, while the `PDF_EXTENDED_TEMPLATES` directory acts like a child theme. All core template can be overridden by placing a file with the same name in `PDF_EXTENDED_TEMPLATES` – which is what happens automatically when you follow the [preparing the infrastructure](#preparing-the-infrastructure) step.
-
+When we designed the Gravity PDF template system we used the [Theme hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/) as a starting point. The plugin's core templates are like the parent theme, while the `PDF_EXTENDED_TEMPLATES` directory acts like a child theme. All core template can be overridden by placing a file with the same name in `PDF_EXTENDED_TEMPLATES` – which is what happens automatically when you follow the [preparing the infrastructure](#preparing-the-infrastructure) step.
 
 ##### Multisite [#multisite](#multisite){#multisite}
 
@@ -79,6 +86,8 @@ A valid header might look like this:
 
 ### Variables Available [#variables-available](#variables-available){#variables-available}
 
+![Overview of the available variables in PDF templates](https://gpdfv4.pv/app/uploads/2015/11/available-variables.png)
+
 The following variables are available to all PDF templates:
 
 $form [#form](#form){#form}
@@ -111,6 +120,8 @@ $lead_ids [#lead_ids](#lead_ids){#lead_ids}
 :     An array of the selected entries to be processed. This array was used in Gravity PDF v3 to process multiple entries in a single PDF, but this had a lot of performance problems and has been removed in v4+.
 
 ### Template Tutorial – Part 1 [#template-tutorial](#template-tutorial){#template-tutorial}
+
+![The basic Hello World PDF template](https://gpdfv4.pv/app/uploads/2015/11/basic-hello-world-template.png)
 
 Now we've got all the theory out of the way let's create our first PDF template. In the traditional fashion, this will be a basic "Hello World" PDF. 
 
@@ -168,7 +179,9 @@ To finish off our example we've going to replace `<!-- The PDF content should be
 
 #### Viewing PDF [#viewing-pdf](#viewing-pdf){#viewing-pdf}
 
-Once you've uploaded the template you'll be able to see your new *Sol System* group added to the [#template](https://gpdfv4.pv/v4-docs/user-setup-pdf/#template) field when configuring new form PDF templates. Go ahead and [configure a new form PDF](https://gpdfv4.pv/v4-docs/user-setup-pdf/) with your Hello World template and then [view the PDF](#). You should see a PDF with "Hello World" written in large text.
+![The new Sol System PDF group](https://gpdfv4.pv/app/uploads/2015/11/sol-system-group.png)
+
+Once you've uploaded the template you'll be able to see your new *Sol System* group added to the [template](https://gpdfv4.pv/v4-docs/user-setup-pdf/#template) field when configuring new form PDF templates. Go ahead and [configure a new form PDF](https://gpdfv4.pv/v4-docs/user-setup-pdf/) with your Hello World template and then [view the PDF](#). You should see a PDF with "Hello World" written in large text.
 
 #### Adding Styles [#adding-style](#adding-styles){#adding-styles}
 

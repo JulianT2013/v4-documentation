@@ -1,7 +1,7 @@
 ---
 ID: 1485
 post_title: PHP Form Data Array
-author: Jake Jackson
+author: GravityBot
 post_date: 2015-11-02 06:07:44
 post_excerpt: ""
 layout: v4_docs
@@ -28,15 +28,18 @@ published: true
 
 ### Template Tutorial – Part 3 [#template-tutorial](#template-tutorial){#template-tutorial}
 
-First, we're going to convert the template we did in the [Part 2 exercise](#) from merge tags/conditional shortcodes to PHP. Then we'll look at the two post-processing use-cases we discussed [in the introduction](#introduction). Finally, we'll take a closer look at the `$form_data` array.
+![Gravity PDF PHP template](https://gpdfv4.pv/app/uploads/2015/11/pdf-template-sample.png)
+
+First, we're going to convert the template we did in the [Part 2 exercise](https://gpdfv4.pv/v4-docs/developer-mergetags-and-conditional-shortcodes/) from merge tags/conditional shortcodes to PHP. Then we'll look at the two post-processing use-cases we discussed [in the introduction](#introduction). Finally, we'll take a closer look at the `$form_data` array.
 
 #### Convert Merge tags to PHP [#convert-mergetags-to-php](#convert-mergetags-to-php){#convert-mergetags-to-php}
 
-Our *Hello World* template included merge tags for field #1 and field #3 – our name field and drop down, respectively. Their equivalent access keys in the `$form_data` array are `$form_data['field'][1]['first']` and `form_data['field'][3]`. So we'll update the PDF template to:
+Our [*Hello World* template](https://gist.github.com/blueliquiddesigns/6c0a5268fa23ba51a285) included merge tags for field #1 and field #3 – our name field and drop down, respectively. Their equivalent access keys in the `$form_data` array are `$form_data['field'][1]['first']` and `form_data['field'][3]`. So we'll update the PDF template to:
 
 ```{.language-php}
 <p>You're from <?php echo $form_data['field'][3]; ?>, <?php echo $form_data['field'][1]['first']; ?>? How cool is that!</p>
 ```
+
 
 > The `$form_data` array is grouped into a number of different sub-arrays, but the most common is `$form_data['field']`. As the name suggests, it contains the field data for *most* Gravity Form field – add-ons that add new fields are stored in separate sub-arrays.
 
@@ -162,7 +165,7 @@ PDF templates are just PHP files that are loaded in WordPress. Anything you can 
 
 The `$form_data` array is create for accessing Gravity Form entry information, but unlike merge tags there's no selector to show you what's actually in the array. That's why we've added a `data` URL parameter which shows you the complete contents of the `$form_data` array.
 
-To see the array, view a PDF in your admin area. When it loads add `?data=1` to the URL and reload. The address should look similar to this:
+To see the array, first view a PDF in your admin area. When it loads add `?data=1` to the URL and reload. The address should look similar to this:
 
 ```{.language-markup}
 https://gravitypdf.com/pdf/12i410491024123/100/?data=1

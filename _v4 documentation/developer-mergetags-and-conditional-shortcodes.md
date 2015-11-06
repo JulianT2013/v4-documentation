@@ -1,7 +1,7 @@
 ---
 ID: 1484
 post_title: Merge Tags and Conditional Shortcodes
-author: Jake Jackson
+author: GravityBot
 post_date: 2015-11-02 01:24:43
 post_excerpt: ""
 layout: v4_docs
@@ -15,9 +15,13 @@ Gravity Forms has a [powerful marco they call *Merge Tags*](https://www.gravityh
 
 ### Template Tutorial – Part 2 [#template-tutorial](#template-tutorial){#template-tutorial}
 
-In [Template Tutorial – Part 1](#) we showed you the very minimum needed to create a PDF template. In part 2 we're going to utilise merge tags and conditional shortcodes in a template. Before you begin you will need to download the [Gravity Form](https://gpdfv4.pv/app/uploads/2015/11/hello-world-gravity-form.json) we'll be working with and [import it into your website](https://www.gravityhelp.com/documentation/article/importing-a-form-into-gravity-forms/). Once done, submit a new entry for the newly-imported *Hello World* form.
+![The Hello World Gravity Form](https://gpdfv4.pv/app/uploads/2015/11/hello-world-form.png)
+
+In [Template Tutorial – Part 1](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#template-tutorial) we showed you the very minimum needed to create a PDF template. In part 2 we're going to utilise merge tags and conditional shortcodes in a template. Before you begin you will need to download the [Gravity Form](https://gpdfv4.pv/app/uploads/2015/11/hello-world-gravity-form.json) we'll be working with and [import it into your website](https://www.gravityhelp.com/documentation/article/importing-a-form-into-gravity-forms/). Once done, submit a new entry for the newly-imported *Hello World* form.
 
 #### Merge Tags [#mergetags](#mergetags){#mergetags}
+
+![Mergetags in the Gravity Form notification](https://gpdfv4.pv/app/uploads/2015/11/merge-tags.png)
 
 Gravity Form *field* merge tags use the format `{[Field Name]:[field_id]}`. Keep in mind, the *Field Name* isn't required and advanced fields have a slightly different format. 
 
