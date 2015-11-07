@@ -13,15 +13,15 @@ When Gravity PDF is activated it will run a number of checks to ensure your web 
 
 **Jump to Section**
 
--   [WordPress Version 4.X is required](#wordpress-version)
--   [Gravity Forms Version 1.x is required](#gravityforms-version)
--   [You are running an outdated version of PHP](#php-version)
--   [The PHP Extension MB String could not be detected](#php-mbstring)
--   [The PHP Extension MB String does not have MB Regex enabled](#php-mbstring-regex)
--   [The PHP Extension GD Image Library could not be detected](#php-gd)
--   [The PHP DOM Extension was not found](#php-dom)
--   [The PHP Extension libxml could not be detected](#php-xml)
--   [You need 128MB of WP Memory (RAM) but we only found X available](#wp-memory)
+* [WordPress Version 4.X is required](#wordpress-version)
+* [Gravity Forms Version 1.x is required](#gravityforms-version)
+* [You are running an outdated version of PHP](#php-version)
+* [The PHP Extension MB String could not be detected](#php-mbstring)
+* [The PHP Extension MB String does not have MB Regex enabled](#php-mbstring-regex)
+* [The PHP Extension GD Image Library could not be detected](#php-gd)
+* [The PHP DOM Extension was not found](#php-dom)
+* [The PHP Extension libxml could not be detected](#php-xml)
+* [You need 128MB of WP Memory (RAM) but we only found X available](#wp-memory)
 
 ---
 

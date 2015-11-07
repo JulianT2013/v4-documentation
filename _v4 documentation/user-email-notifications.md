@@ -36,7 +36,10 @@ There are a number of premium mail services you can choose from, including [Mand
 While Mailgun touts they are the "Email Service For Developers" there's no need to be worried. Yes, they do have a lot of weird looking code samples during the sign up process but you can ignore all that. We're going to configure WordPress to send mail using SMTP.
 
 1.  First, install the [WP Mail SMTP plugin](https://wordpress.org/plugins/wp-mail-smtp/) on your WordPress website and activate the plugin. A new settings page called `Email` will be available under the `Settings` tab, but we're not going to configure the plugin just yet.
-1.  Head to [Mailgun's signup page](https://mailgun.com/signup) and fill out the form. It's your standard name, email, password type form. ![Mailgun Signup Page](https://gpdfv4.pv/app/uploads/2015/10/initial-signup.png)
+
+1.  Head to [Mailgun's signup page](https://mailgun.com/signup) and fill out the form. It's your standard name, email, password type form. 
+    ![Mailgun Signup Page](https://gpdfv4.pv/app/uploads/2015/10/initial-signup.png)
+
 1.  On the next page you'll see it is split into two sections:
 
     1.  Try Sending An Email From the Sandbox
@@ -73,4 +76,3 @@ Now sit back and enjoy the fact your emails have the best chance of reaching the
 #### Do I Really Need This? [#do-I-really-need-this](#do-I-really-need-this){#do-I-really-need-this}
 
 Unless you're a server administrator who can setup a mail server correctly, then yes. You really do need this. To reiterate, these services help ensure **emails are landing in inboxes**, but if there is a problem their analytic tools will let you know what went wrong.
-                    

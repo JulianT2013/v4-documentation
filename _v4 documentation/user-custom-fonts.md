@@ -21,9 +21,9 @@ The font installer is found in the plugin setting's [*Tools* tab](https://gpdfv4
 
 **Jump To Section**
 
--   [Adding a Font](#adding-font)
--   [Editing a Font](#editing-font)
--   [Deleting a Font](#deleting-font)
+* [Adding a Font](#adding-font)
+* [Editing a Font](#editing-font)
+* [Deleting a Font](#deleting-font)
 
 ---
 
@@ -33,27 +33,27 @@ The font installer is found in the plugin setting's [*Tools* tab](https://gpdfv4
 
 Click the *Add Font* "plus" icon and an empty form will be displayed where you can name and upload your font files. The form fields available include:
 
-Font Name (required) [#font-name](#font-name)
-:   This is the name that gets displayed through all Gravity PDF's interfaces and is used when setting the font in your PDF. It doesn't have to be the same name as your font but it's a good idea to keep them similar.
-:   Due to how the PDF software handles fonts only alphanumeric characters and spaces are allowed in the name (A-Z / 0-9).
+Font Name (required) [#font-name](#font-name){#font-name}
+:    This is the name that gets displayed through all Gravity PDF's interfaces and is used when setting the font in your PDF. It doesn't have to be the same name as your font but it's a good idea to keep them similar.
+:    Due to how the PDF software handles fonts only alphanumeric characters and spaces are allowed in the name (A-Z / 0-9).
 
-Regular (required) [#regular](#regular)
-:   This field references the main font file for your [typeface](https://en.wikipedia.org/wiki/Typeface). Use the *Select Font* button to open your media library and upload a `.ttf` or `.otf` font file. Once uploaded, select your font and press the blue *Select Font* button in the bottom right hand corner of your screen.
-:   While the field accepts a URL to the font, the file **must** be uploaded through your media library for it to be correctly loaded in the PDF software. External font links will not work. This rule also applies to the [#bold](#bold), [#italics](#italics) and [#bold-italics](#bold-italics) fields.
+Regular (required) [#regular](#regular){#regular}
+:    This field references the main font file for your [typeface](https://en.wikipedia.org/wiki/Typeface). Use the *Select Font* button to open your media library and upload a `.ttf` or `.otf` font file. Once uploaded, select your font and press the blue *Select Font* button in the bottom right hand corner of your screen.
+:    While the field accepts a URL to the font, the file **must** be uploaded through your media library for it to be correctly loaded in the PDF software. External font links will not work. This rule also applies to the [#bold](#bold), [#italics](#italics) and [#bold-italics](#bold-italics) fields.
 
-Bold (optional) [#bold](#bold)
-:   If your [typeface](https://en.wikipedia.org/wiki/Typeface) includes a bold version of your font you can add it here. Use the *Select Font* button to open your media library and select the font.
-:   This field is optional and if not provided the PDF software will mimic bold when referenced. However, you will get a better result if a bold font file is installed.
+Bold (optional) [#bold](#bold){#bold}
+:    If your [typeface](https://en.wikipedia.org/wiki/Typeface) includes a bold version of your font you can add it here. Use the *Select Font* button to open your media library and select the font.
+:    This field is optional and if not provided the PDF software will mimic bold when referenced. However, you will get a better result if a bold font file is installed.
 
-Italics (optional) [#italics](#italics)
-:   If your [typeface](https://en.wikipedia.org/wiki/Typeface) includes an italics version of your font you can add it here. Use the *Select Font* button to open your media library and select the font.
-:   This field is optional and if not provided the PDF software will mimic italics when referenced. However, you will get a better result if an italics font file is installed.
+Italics (optional) [#italics](#italics){#italics}
+:    If your [typeface](https://en.wikipedia.org/wiki/Typeface) includes an italics version of your font you can add it here. Use the *Select Font* button to open your media library and select the font.
+:    This field is optional and if not provided the PDF software will mimic italics when referenced. However, you will get a better result if an italics font file is installed.
 
-Bold Italics (optional) [#bold-italics](#bold-italics)
-:   If your [typeface](https://en.wikipedia.org/wiki/Typeface) includes a bold-italics version of your font you can add it here. Use the *Select Font* button to open your media library and select the font.
-:   This field is optional and if not provided the PDF software will mimic bold-italics when referenced. However, you will get a better result if a bold-italics font file is installed.
+Bold Italics (optional) [#bold-italics](#bold-italics){#bold-italics}
+:    If your [typeface](https://en.wikipedia.org/wiki/Typeface) includes a bold-italics version of your font you can add it here. Use the *Select Font* button to open your media library and select the font.
+:    This field is optional and if not provided the PDF software will mimic bold-italics when referenced. However, you will get a better result if a bold-italics font file is installed.
 Custom Template Usage [#custom-template-usage](#custom-template-usage)
-:   This is a read-only field which displays a simple CSS statement for use in [custom PDF templates](#). If you want the entire PDF to use your custom font then change the [Font setting](https://gpdfv4.pv/v4-docs/setup-pdf/#font) when you setup your PDF.
+:    This is a read-only field which displays a simple CSS statement for use in [custom PDF templates](https://gpdfv4.pv/v4-docs/developer-start-customising/). If you want the entire PDF to use your custom font then change the [Font setting](https://gpdfv4.pv/v4-docs/setup-pdf/#font) when you setup your PDF.
 
 ---
 

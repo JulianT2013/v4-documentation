@@ -29,32 +29,32 @@ Because HTML elements are hard coded to `block` or `inline` only certain CSS can
 
 The following CSS selectors can be used in mPDF. Lower styles and attributes in the list will override higher styles and attributes.
 
--   `p { font-size:12pt; color:#880000; }`
--   `.stylename { font-size:9pt; }`
--   `#style { font-size:9pt; }`
--   `<div align="center">`
--   `<p style="font-family:monospace;">`
+* `p { font-size:12pt; color:#880000; }`
+* `.stylename { font-size:9pt; }`
+* `#style { font-size:9pt; }`
+* `<div align="center">`
+* `<p style="font-family:monospace;">`
 
 #### Cascading Limitations [#cascading-limitations](#cascading-limitations){#cascading-limitations}
 
 An area mPDF falls down in is its cascading CSS support. There's limited support for block-level elements and no support for inline elements. **Valid Cascading CSS**
 
--   `div.topic table td {...}`
--   `div #my-id {...}`
--   `table tr {...}`
--   `div p.my-class {...}`
+* `div.topic table td {...}`
+* `div #my-id {...}`
+* `table tr {...}`
+* `div p.my-class {...}`
 
 **Invalid Cascading CSS**
 
--   `div.my-class a {...}`
--   `a#my-id {...}`
--   `span.my-class {...}`
--   `body div {...}` – In mPDF the `body` tag is neither inline or block so cannot be used in a cascade.
+* `div.my-class a {...}`
+* `a#my-id {...}`
+* `span.my-class {...}`
+* `body div {...}` – In mPDF the `body` tag is neither inline or block so cannot be used in a cascade.
 
 That's not to say you cannot apply styles to inline elements. You just cannot use them in a cascading fashion. To get around this issue we recommend applying ID and class attributes to all elements you want to style and target them directly.
 
--   `#my-id {...}`
--   `.my-class {...}`
+* `#my-id {...}`
+* `.my-class {...}`
 
 #### Float Limitation [#float-limitation](#float-limitation){#float-limitation}
 

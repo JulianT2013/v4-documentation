@@ -13,7 +13,7 @@ published: true
 
 Gravity PDF is a **free** WordPress plugin built for the popular premium form builder software, [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154). It allows you to generate PDF documents that contain user-data captured with Gravity Forms. 
 
-The look and feel of the PDF is controlled through templates. The software comes with five **free** designs, but you can also [purchase additional templates from our theme shop](#), [build your own using HTML and CSS](#) or have our team [custom-build one for you](#) - we can even [auto-complete existing PDF documents](#) like government forms.
+The look and feel of the PDF is controlled through templates. The software comes with five **free** designs, but you can also [purchase additional templates from our theme shop](#), [build your own using HTML and CSS](https://gpdfv4.pv/v4-docs/developer-start-customising/) or have our team [custom-build one for you](#) - we can even [auto-complete existing PDF documents](#) like government forms.
 
 ---
 

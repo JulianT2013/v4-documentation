@@ -21,15 +21,15 @@ Until recently Gravity PDF suffered from the same issue – only a single column
 
 Gravity PDF supports the following CSS Ready Classes:
 
--   `gf_left_half` (two-column layout)
--   `gf_right_half` (two-column layout)
--   `gf_left_third` (three-column layout)
--   `gf_middle_third` (three-column layout)
--   `gf_right_third` (three-column layout)
+* `gf_left_half` (two-column layout)
+* `gf_right_half` (two-column layout)
+* `gf_left_third` (three-column layout)
+* `gf_middle_third` (three-column layout)
+* `gf_right_third` (three-column layout)
 
 When not already in a column the following *List* classes are also supported:
 
--   `gf_list_2col`
--   `gf_list_3col`
--   `gf_list_4col`
--   `gf_list_5col`
+* `gf_list_2col`
+* `gf_list_3col`
+* `gf_list_4col`
+* `gf_list_5col`

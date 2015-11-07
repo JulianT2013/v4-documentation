@@ -54,13 +54,12 @@ The `<htmlpagefooter>` tag allows you to define a footer template and everything
 </htmlpagefooter>
 ```
 
-
 ### Displaying Headers/Footers [#displaying-headers-and-footers](#displaying-headers-and-footers){#displaying-headers-and-footers}
 
 There are two different methods to assign headers and footers:
 
-1.  Using the special CSS selector `@page`
-2.  Using mPDF's custom HTML setter tags `<sethtmlpageheader>` and `<sethtmlpagefooter>`
+1. Using the special CSS selector `@page`
+1. Using mPDF's custom HTML setter tags `<sethtmlpageheader>` and `<sethtmlpagefooter>`
 
 #### @page [#at-page](#at-page){#at-page}
 
@@ -114,22 +113,22 @@ The extra attribute `show-this-page` in the header tag is required because the P
 
 Header and Footers have access to the following reserved variables that can be used to display the current page number and the total page number:
 
--   `{pageno}` – Will be replaced by the current page number.
--   `{nb}` – Will return the total number of pages in the PDF document
+* `{pageno}` – Will be replaced by the current page number.
+* `{nb}` – Will return the total number of pages in the PDF document
 
 ### Samples and Further Reading [#samples-and-further-reading](#samples-and-further-reading){#samples-and-further-reading}
 
 We've put together two sample PDF templates showing off the two header and footer methods we discussed above:
 
-1.  [Example 1 – @page](https://gist.github.com/blueliquiddesigns/7d62b713e51f8e956a91)
-2.  [Example 2 – Inline HTML](https://gist.github.com/blueliquiddesigns/af2f81d4c3e61bb2da01)
+1. [Example 1 – @page](https://gist.github.com/blueliquiddesigns/7d62b713e51f8e956a91)
+1. [Example 2 – Inline HTML](https://gist.github.com/blueliquiddesigns/af2f81d4c3e61bb2da01)
 
 For more information about the methods discussed we recommend reviewing the mPDF documentation:
 
--   [`@page`](http://mpdf1.com/manual/index.php?tid=307)
--   [`<htmlpageheader>`](http://mpdf1.com/manual/index.php?tid=177)
--   [`<htmlpagefooter>`](http://mpdf1.com/manual/index.php?tid=178)
--   [`<sethtmlpageheader>`](http://mpdf1.com/manual/index.php?tid=179)
--   [`<sethtmlpagefooter>`](http://mpdf1.com/manual/index.php?tid=180)
+* [`@page`](http://mpdf1.com/manual/index.php?tid=307)
+* [`<htmlpageheader>`](http://mpdf1.com/manual/index.php?tid=177)
+* [`<htmlpagefooter>`](http://mpdf1.com/manual/index.php?tid=178)
+* [`<sethtmlpageheader>`](http://mpdf1.com/manual/index.php?tid=179)
+* [`<sethtmlpagefooter>`](http://mpdf1.com/manual/index.php?tid=180)
 
                     

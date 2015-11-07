@@ -29,9 +29,9 @@ While you do have to pay for the software, it's one of those must-have plugins t
 
 When purchasing [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) you have a choice of three different licenses which include:
 
-1.  Personal – a single-site license with no add-ons
-2.  Business – three-site license with basic add-ons included
-3.  Developer – unlimited site license with all add-ons included
+1. Personal – a single-site license with no add-ons
+1. Business – three-site license with basic add-ons included
+1. Developer – unlimited site license with all add-ons included
 
 A license is valid for one calendar year from the purchase date and gives you access to download the software (and any add-ons), as well as one year of support and upgrades. License renewals need to be made yearly so you can continue getting updates and support. Renewals are discounted (the discount percentage depends on your license type). 
 
@@ -55,7 +55,7 @@ We don't actively test any third-party Gravity Forms add-ons for compatibility, 
 
 At this time the following third-party add-ons will not be supported:
 
--   [WooCommerce Gravity Forms Add-On](http://www.woothemes.com/products/gravity-forms-add-ons/) – unsupported due to the way this plugin stores Gravity Forms data in WooCommerce, and the lack of communication from the original developer.
+* [WooCommerce Gravity Forms Add-On](http://www.woothemes.com/products/gravity-forms-add-ons/) – unsupported due to the way this plugin stores Gravity Forms data in WooCommerce, and the lack of communication from the original developer.
 
 ---
 

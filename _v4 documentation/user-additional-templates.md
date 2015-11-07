@@ -13,28 +13,28 @@ While Gravity PDF ships with five free customisable PDF templates, they may not 
 
 If you can't find anything you like in the shop, we also offer [custom template creation and installation services](#custom-templates) – these are unique PDF templates crafted and installed to your specifications by our skilled team of developers. Our team can also **auto-fill existing PDF documents**, which is perfect when you need to integrate legal or government forms (this feature isn't available in our free or DIY offering). 
 
-Finally, for those [DIY aficionados](#diy-templates) with HTML/CSS/PHP knowledge we've got [extensive documentation](#) on how you can build, configure and install your own templates. 
+Finally, for those [DIY aficionados](#diy-templates) with HTML/CSS/PHP knowledge we've got [extensive documentation](https://gpdfv4.pv/v4-docs/developer-start-customising/) on how you can build, configure and install your own templates. 
 
 **Jump to Section**
 
--   [Theme Shop](#theme-shop)
--   [Custom Templates](#custom-templates)
--   [DIY Templates](#diy-templates)
+* [Theme Shop](#theme-shop)
+* [Custom Templates](#custom-templates)
+* [DIY Templates](#diy-templates)
 
 ---
 
-### Theme Shop [#theme-shop](#theme-shop)
+### Theme Shop [#theme-shop](#theme-shop){#theme-shop}
 
 TODO
 
 ---
 
-### Custom Templates [#custom-templates](#custom-templates)
+### Custom Templates [#custom-templates](#custom-templates){#custom-templates}
 
 TODO
 
 ---
 
-### DIY Templates [#diy-templates](#diy-templates)
+### DIY Templates [#diy-templates](#diy-templates){#diy-templates}
 
 TODO
