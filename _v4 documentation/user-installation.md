@@ -8,6 +8,14 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/user-installation/
 published: true
+kodex_post_likes:
+  - 'a:0:{}'
+kodex_post_dislikes:
+  - 'a:0:{}'
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ![Gravity PDF 4.x Welcome Screen](https://gpdfv4.pv/app/uploads/2015/10/welcome-screen.png) 
 

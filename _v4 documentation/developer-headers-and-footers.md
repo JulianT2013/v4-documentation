@@ -13,6 +13,8 @@ published: true
 
 Headers and footers are a powerful feature of the PDF rendering software, mPDF. They aren't just limited to every page either, you have granular control over which pages your headers and footers display on.
 
+![Example of PDF header and footer](https://gpdfv4.pv/app/uploads/2015/11/header-footer-support.png)
+
 ### Defining Headers/Footers [#defining-headers-and-footers](#defining-headers-and-footers){#defining-headers-and-footers}
 
 The first thing you need to do is define a header/footer in your PDF template, then you tell the software when to display it. The two tags to define headers/footers are `<htmlpageheader name="">` and `<htmlpagefooter name="">`. 

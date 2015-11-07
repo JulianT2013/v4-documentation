@@ -13,6 +13,8 @@ published: true
 
 The PDF software we use to generate documents, mPDF, is quite good with its HTML and CSS support but it does have its limitations and quirks. Areas it falls down in are floats and positioning, cascading styles and widow and orphan support.
 
+![Example of mPDFs background and borders features](https://gpdfv4.pv/app/uploads/2015/11/supported-html-and-css.png)
+
 ### HTML Support [#html-support](#html-support){#html-support}
 
 Most HTML 4 and 5 tags are recognised and, to some extent, supported in mPDF – including nested tables. For the best results you should [follow the XHTML specification](http://www.w3.org/TR/xhtml1/) and create valid HTML when creating PDF templates. A lot of display issues arise from a missing closing tag, or incorrectly nested HTML. 
@@ -57,6 +59,8 @@ That's not to say you cannot apply styles to inline elements. You just cannot us
 * `.my-class {...}`
 
 #### Float Limitation [#float-limitation](#float-limitation){#float-limitation}
+
+![Example of float and fixed positioning support](https://gpdfv4.pv/app/uploads/2015/11/float-and-positioning.png)
 
 Only block-level elements with fixed-widths can be floated in mPDF. Keep in mind the [standard box-model applies](http://css-tricks.com/the-css-box-model/) so floating two elements left with a 50% width and any borders or padding won’t produce a two-column layout (the second box would be pushed down below the first). In the scenario, you would need to subtract the border and padding from the width to successfully float the blocks side by side. [You can read more about floats in the mPDF documentation](http://mpdf1.com/manual/index.php?tid=385).
 
