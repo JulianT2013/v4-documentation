@@ -8,10 +8,14 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-template-hierarchy/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-We [touched on the template hierarchy](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#template-hierarchy) when you created your first custom PDF template, but it's a little more involved – especially for Multisite installations. It's also not just limited to PDF templates, and the core configuration and image preview files can be overridden as well.
+We [touched on the template hierarchy](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#template-hierarchy) when you created your first custom PDF template, but it's a little more involved – especially for Multisite installations. It's also not just limited to PDF templates; you can override the core configuration and image preview files as well.
 
 ### Standard WordPress Installation [#standard-wordpress-install](#standard-wordpress-install){#standard-wordpress-install}
 

@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/development-helper-parameters/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
@@ -23,17 +27,17 @@ https://gravitypdf.com/pdf/12i0afjafwijww212/?name=value
 
 The URL parameter is the `name=value` pair after the question mark. 
 
-data=1
+data=1 [#data](#data){#data}
 :    ![Preview of the 'data' attribute](https://gpdfv4.pv/app/uploads/2015/11/data.png)
 :    The data URL parameter is used to display the full output of the $form_data array in your browser. This is very useful when [creating your PDF template using PHP only](https://gpdfv4.pv/v4-docs/developer-php-form-data-array/).
 :    Usage: `https://gravitypdf.com/pdf/12i0afjafwijww212/?data=1`
 
-html=1
+html=1 [#html](#html){#html}
 :    ![Preview of the 'html' attribute](https://gpdfv4.pv/app/uploads/2015/11/html.png)
-:    The HTML URL parameter is used to display the generated PDF template's HTML mark-up. What's display is the HTML that gets sent to the PDF software and it has all the PHP and merge tag formatting complete. This is very useful to in debugging layout issues. 
+:    The HTML URL parameter is used to display the generated PDF template's HTML mark-up. What's display is the HTML that gets sent to the PDF software with all the PHP and merge tag formatting complete. This is very useful when debugging layout issues as you can copy the source code and [run it through a HTML validator](https://validator.w3.org/). 
 :    Usage: `https://gravitypdf.com/pdf/12i0afjafwijww212/?html=1`
 
-template={name}
+template={name} [#template](#template){#template}
 :    ![Preview of the 'template' attribute](https://gpdfv4.pv/app/uploads/2015/11/template.png)
 :    The template URL parameter allows you to quickly swap between different PDF template files. The `{name}` value needs to be substituted for the PHP template name (with the `.php` extension removed).
 :    Usage: `https://gravitypdf.com/pdf/12i0afjafwijww212/?template=hello-world`
@@ -42,19 +46,19 @@ template={name}
 
 When creating custom PDF templates it's often useful to include external CSS files and images, however you don't want to use a fixed path or URL. Instead, you should use a PHP constant or function that contains the correct path or URL. 
 
-PDF_TEMPLATE_LOCATION
+PDF_TEMPLATE_LOCATION [#pdf-template-location](#pdf-template-location){#pdf-template-location}
 :    This is a constant that contains the path to the [PDF working directory](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#working-directory) or, in multisite installations, the path to the [individual multisite working directory](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#multisite-structure). We use this often to reference images or other PHP files on the host machine. 
 :    Usage: `<img src="<?php echo PDF_TEMPLATE_LOCATION; ?>images/hello-world.png" width="400" />`
 
-PDF_TEMPLATE_URL_LOCATION
+PDF_TEMPLATE_URL_LOCATION [#pdf-template-url-location](#pdf-template-url-location){#pdf-template-url-location}
 :    This is a constant that contains the URL to the [PDF working directory](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#working-directory) or, for multisite installations, the URL to the [individual multisite working directory](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#multisite-structure). This is useful if you want to provide a link to a file on the host machine.
 :    Usage: `<a href="<?php echo PDF_TEMPLATE_URL_LOCATION; ?>images/hello-world.png">View Sample</a>`
 
-ABSPATH
+ABSPATH [#abspath](#abspath){#abspath}
 :    A WordPress constant that references to the directory in which WordPress is installed. This is less useful that the other methods (usually you don't store files in the root directory) but it's good to know about.
 :    Usage: `<img src="<?php echo ABSPATH; ?>logo.png" width="400" />`
 
-wp_upload_dir()
+wp_upload_dir() [#wp-upload-dir](#wp-upload-dir){#wp-upload-dir}
 :    A [WordPress function](https://codex.wordpress.org/Function_Reference/wp_upload_dir) that returns path and URL information about the uploads directory. 
 :    Usage:
      ```

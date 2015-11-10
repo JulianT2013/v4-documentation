@@ -106,4 +106,3 @@ Gravity Form [Notifications](https://www.gravityhelp.com/documentation/article/c
 Because of the [security protocols](https://gpdfv4.pv/v4-docs/user-pdf-security/), this method is very effective when the recipient has a WordPress user account. We don't recommend using it if your forms will be completed by logged out users – add a shortcode to the [confirmation page](#confirmation) instead.
 
 [^1]: The [Page confirmation](#page-confirmation) method requires a little extra configuration than text and redirect confirmations.
-

@@ -204,4 +204,4 @@ Save and upload the template again. When you view it you'll see the heading is n
 
 Just keep in mind that the PDF software doesn't function exactly like a web browser. Not all [HTML or CSS is supported](#) in PDFs and [cascading CSS support is limited](#).
 
-[^1]: For legacy reasons ensure you don't name your template `configuration.php` or `configuration.archive.php`. 
+[^1]: For legacy reasons ensure you don't name your template `configuration.php` or `configuration.archive.php`.

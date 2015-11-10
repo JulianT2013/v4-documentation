@@ -120,4 +120,3 @@ Uninstall [#uninstall](#uninstall){#uninstall}
 ### Help Tab [#help](#help){#help}
 
 ![Gravity PDF Help Settings Page](https://gpdfv4.pv/app/uploads/2015/10/help-tab.png) Details about the help tab to be refined...
-                    

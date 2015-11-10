@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-start-customising/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ### Before You Begin [#before-you-begin](#before-you-begin){#before-you-begin}
 
@@ -48,7 +52,7 @@ Along with learning the ins and outs to create a template and configuration file
 * [Fixed Positioning](#)
 * [PageBreaks](#)
 
-For those developers looking for in-depth knowledge about the PDF engine, mPDF, that Gravity PDF uses we recommend you [review the mPDF user and reference guide](http://mpdf1.com/manual/index.php).
+For those developers looking for in-depth knowledge about the PDF engine, [mPDF](http://mpdf1.com/), that Gravity PDF uses we recommend you [review the mPDF user and reference guide](http://mpdf1.com/manual/index.php).
 
 ### Actions / Filters [#actions-filters](#actions-filters){#actions-filters}
 

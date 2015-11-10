@@ -442,4 +442,3 @@ That's all there is to it. You've now added support for all three template-speci
 When a user selects a PDF template to use from the admin area they'll see a preview of that template if it exists. To add support for your custom PDF template just save a 768x576 PNG to the `images` folder in the [PDF working directory](https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/#working-directory). 
 
 Ensure you use the same name as your custom template when saving the image. For example, an image for our `hello-world.php` template would be named `hello-world.png`.
-                    

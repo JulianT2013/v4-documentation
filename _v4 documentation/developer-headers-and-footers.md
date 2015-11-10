@@ -8,10 +8,14 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-headers-and-footers/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-Headers and footers are a powerful feature of the PDF rendering software, mPDF. They aren't just limited to every page either, you have granular control over which pages your headers and footers display on.
+Headers and footers are a powerful feature of the PDF rendering software, [mPDF](http://mpdf1.com/). They aren't just limited to every page either, you have granular control over which pages your headers and footers display on.
 
 ![Example of PDF header and footer](https://gpdfv4.pv/app/uploads/2015/11/header-footer-support.png)
 
@@ -132,5 +136,3 @@ For more information about the methods discussed we recommend reviewing the mPDF
 * [`<htmlpagefooter>`](http://mpdf1.com/manual/index.php?tid=178)
 * [`<sethtmlpageheader>`](http://mpdf1.com/manual/index.php?tid=179)
 * [`<sethtmlpagefooter>`](http://mpdf1.com/manual/index.php?tid=180)
-
-                    

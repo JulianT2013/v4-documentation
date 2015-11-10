@@ -62,4 +62,3 @@ At this time the following third-party add-ons will not be supported:
 ### Who to Contact for Support? [#who-to-contact-for-support](#who-to-contact-for-support){#who-to-contact-for-support}
 
 The general rule of thumb is if you disable Gravity PDF and the problem persists you need to [contact the Gravity Forms support team](https://www.gravityhelp.com/support/) (you'll need an active license key to get support). For anything PDF related [get in touch with our support team](#).
-                    

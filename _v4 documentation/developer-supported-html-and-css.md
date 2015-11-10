@@ -8,16 +8,20 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-supported-html-and-css/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-The PDF software we use to generate documents, mPDF, is quite good with its HTML and CSS support but it does have its limitations and quirks. Areas it falls down in are floats and positioning, cascading styles and widow and orphan support.
+The PDF software we use to generate documents, [mPDF](http://mpdf1.com/), is quite good with its HTML and CSS support but it does have its limitations and quirks. Areas it falls down in are floats and positioning, cascading styles and widow and orphan support.
 
 ![Example of mPDFs background and borders features](https://gpdfv4.pv/app/uploads/2015/11/supported-html-and-css.png)
 
 ### HTML Support [#html-support](#html-support){#html-support}
 
-Most HTML 4 and 5 tags are recognised and, to some extent, supported in mPDF – including nested tables. For the best results you should [follow the XHTML specification](http://www.w3.org/TR/xhtml1/) and create valid HTML when creating PDF templates. A lot of display issues arise from a missing closing tag, or incorrectly nested HTML. 
+Most HTML 4 and 5 tags are recognised and, to some extent, supported in mPDF – including nested tables. For the best results you should [follow the XHTML specification](http://www.w3.org/TR/xhtml1/) and create valid HTML when creating PDF templates. A lot of display issues arise from a missing closing tag, or incorrectly nested HTML – we recommend you [run your HTML through a validation service](https://gpdfv4.pv/v4-docs/development-helper-parameters/#html). 
 
 Along with the standardised HTML tag support, there is also [custom HTML tags which mPDF introduced](http://mpdf1.com/manual/index.php?tid=305) to give you more control over your PDF. These include header and footers, page breaks, bookmarks, table of contents and annotations. One of the biggest quirks you'll need to get use to is that all HTML elements are hard coded as either `block` or `inline` elements and they cannot be changed using the CSS `display` property. 
 
@@ -67,4 +71,3 @@ Only block-level elements with fixed-widths can be floated in mPDF. Keep in mind
 #### Fixed Position Limitations [#fixed-position-limitations](#fixed-position-limitations){#fixed-position-limitations}
 
 Only block-level elements that are direct children of the `<body>` tag can be `fixed` or `absolute` positioned. Fixed-position or floating elements nested inside other fixed-position or floating elements are not supported. Fixed elements will be restricted to inside the page margins, while absolute elements treats the entire page as the container. [You can read more about fixed-positioning in the mPDF documentation](http://mpdf1.com/manual/index.php?tid=401).
-                    
