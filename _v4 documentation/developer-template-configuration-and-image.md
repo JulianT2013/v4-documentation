@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-template-configuration-and-image/
 published: true
+kodex_post_likes_count:
+  - "1"
+kodex_post_dislikes_count:
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
@@ -90,7 +94,7 @@ class my_super_custom_template implements Helper_Interface_Config {
 
 The important part of the above sample is our `configuration` method inside the class. This array will tell Gravity PDF about the custom template fields that it supports. The array is split into two sub-keys: `core` and `fields`. The `core` key allows you to enable built-in fields like headers and footers, while the `fields` key allows you to implement your own fields using our settings API. 
 
-Be aware, defining the supported fields in the configuration is the first part of a two-part exercise. You then need to modify your PDF template to actually support those fields. [We'll discuss supporting your fields later in the article](#).
+Be aware, defining the supported fields in the configuration is the first part of a two-part exercise. You then need to modify your PDF template to actually support those fields. [We'll discuss supporting your fields later in the article](#template-field-support).
 
 ##### Core Fields [#core-fields](#core-fields){#core-fields}
 
@@ -256,7 +260,7 @@ Now we have access to the header HTML we then need to tell your template to disp
         </htmlpageheader>
 ```        
 
-[See our Headers and Footers documentation](#) for more information about using them in PDF templates.
+[See our Headers and Footers documentation](https://gpdfv4.pv/v4-docs/developer-headers-and-footers/) for more information about using them in PDF templates.
 
 ##### Border Colour Support [#border-colour-support](#border-colour-support){#border-colour-support}
 
@@ -286,7 +290,7 @@ The `$border_colour` variable will now contain the user-selected colour, or fall
 
 ![Our Hello World template fields](https://gpdfv4.pv/app/uploads/2015/11/hello-world-configuration.png) 
 
-Continuing on from our [Part 3 Hello World Tutorial](#), we're going to show you how to create a template configuration with core footer and background support enabled. We'll also add a new field that will determine if meta data should be included in the document.
+Continuing on from our [Part 3 Hello World Tutorial](https://gpdfv4.pv/v4-docs/developer-php-form-data-array/#template-tutorial), we're going to show you how to create a template configuration with core footer and background support enabled. We'll also add a new field that will determine if meta data should be included in the document.
 
 #### Template Configuration [#template-configuration](#template-configuration){#template-configuration}
 

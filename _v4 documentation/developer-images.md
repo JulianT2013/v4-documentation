@@ -9,13 +9,13 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-images/
 published: true
 kodex_post_likes_count:
-  - "0"
+  - "1"
 kodex_post_dislikes_count:
-  - "0"
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-The PDF engine, [mPDF](http://mpdf1.com/), which Gravity PDF uses supports the following image formats:
+The PDF engine Gravity PDF uses, [mPDF](http://mpdf1.com/manual/index.php), supports the following image formats:
 
 * `png` with transparency or alpha channel
 * `jpg` or `jpeg`

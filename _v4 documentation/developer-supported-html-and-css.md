@@ -9,13 +9,13 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-supported-html-and-css/
 published: true
 kodex_post_likes_count:
-  - "0"
+  - "1"
 kodex_post_dislikes_count:
-  - "0"
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-The PDF software we use to generate documents, [mPDF](http://mpdf1.com/), is quite good with its HTML and CSS support but it does have its limitations and quirks. Areas it falls down in are floats and positioning, cascading styles and widow and orphan support.
+The PDF software we use to generate documents, [mPDF](http://mpdf1.com/manual/index.php), is quite good with its HTML and CSS support but it does have its limitations and quirks. Areas it falls down in are floats and positioning, cascading styles and widow and orphan support.
 
 ![Example of mPDFs background and borders features](https://gpdfv4.pv/app/uploads/2015/11/supported-html-and-css.png)
 

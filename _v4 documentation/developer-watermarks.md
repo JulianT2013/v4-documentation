@@ -9,13 +9,15 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-watermarks/
 published: true
 kodex_post_likes_count:
-  - "0"
+  - "1"
 kodex_post_dislikes_count:
-  - "0"
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
 A watermark is a semi-transparent element overlaid on each page of your PDF. Both text and image watermarks are supported, and you have full control over the transparency. 
+
+![Example of text watermark](https://gpdfv4.pv/app/uploads/2015/11/watermark.png){.aligncenter}
 
 Two unique HTML tags are used to output watermarks (one for text watermarks and one for images):
 

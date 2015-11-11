@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/
 published: true
+kodex_post_likes_count:
+  - "1"
+kodex_post_dislikes_count:
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
@@ -36,7 +40,7 @@ When Gravity PDF is installed it automatically creates a folder called `PDF_EXTE
 
 ![How to get your server ready for custom PDF templates](https://gpdfv4.pv/app/uploads/2015/11/setup-custom-templates.png)
 
-Running the [`Setup Custom Templates` tool function](#) from `Forms -> Settings -> PDF -> Tools` in your admin area will setup the required folder structure and automatically copy all the core templates to the `PDF_EXTENDED_TEMPLATES` directory so you can easily begin templating. Use one of the core templates in `PDF_EXTENDED_TEMPLATES` as a starting point and make all the changes you need. 
+Running the [`Setup Custom Templates` tool function](https://gpdfv4.pv/v4-docs/user-global-settings/#custom-templates) from `Forms -> Settings -> PDF -> Tools` in your admin area will setup the required folder structure and automatically copy all the core templates to the `PDF_EXTENDED_TEMPLATES` directory so you can easily begin templating. Use one of the core templates in `PDF_EXTENDED_TEMPLATES` as a starting point and make all the changes you need. 
 
 #### Multisite Structure [#multisite-structure](#multisite-structure){#multisite-structure}
 
@@ -80,7 +84,7 @@ A valid header might look like this:
  * Author: Gravity PDF
  * Group: Core
  * License: GPLv2
- * Required PDF Version: 4.0-alpha
+ * Required PDF Version: 4.0
  */
 ```
 
@@ -171,7 +175,7 @@ Next we're going to layout the basic HTML structure. Go ahead and add the follow
 </html>
 ```
 
-The HTML above should be familiar – it's the very basic building blocks for HTML web pages. You'll see it includes `<head>`, `<title>` and `<body>` tags. Any [supported CSS](#) can be placed in the `<style>` tags, while your actual content should be included in the `<body>` tag.
+The HTML above should be familiar – it's the very basic building blocks for HTML web pages. You'll see it includes `<head>`, `<title>` and `<body>` tags. Any [supported CSS](https://gpdfv4.pv/v4-docs/developer-supported-html-and-css/#css-support) can be placed in the `<style>` tags, while your actual content should be included in the `<body>` tag.
 
 To finish off our example we've going to replace `<!-- The PDF content should be placed in here -->` with `<h1>Hello World</h1>`. Once done, save the example and upload it to your [PDF working directory](#working-directory).
 
@@ -181,7 +185,7 @@ To finish off our example we've going to replace `<!-- The PDF content should be
 
 ![The new Sol System PDF group](https://gpdfv4.pv/app/uploads/2015/11/sol-system-group.png)
 
-Once you've uploaded the template you'll be able to see your new *Sol System* group added to the [template](https://gpdfv4.pv/v4-docs/user-setup-pdf/#template) field when configuring new form PDF templates. Go ahead and [configure a new form PDF](https://gpdfv4.pv/v4-docs/user-setup-pdf/) with your Hello World template and then [view the PDF](#). You should see a PDF with "Hello World" written in large text.
+Once you've uploaded the template you'll be able to see your new *Sol System* group added to the [template](https://gpdfv4.pv/v4-docs/user-setup-pdf/#template) field when configuring new form PDF templates. Go ahead and [configure a new form PDF](https://gpdfv4.pv/v4-docs/user-setup-pdf/) with your Hello World template and then [view the PDF](https://gpdfv4.pv/v4-docs/user-viewing-pdfs/). You should see a PDF with "Hello World" written in large text.
 
 #### Adding Styles [#adding-style](#adding-styles){#adding-styles}
 
@@ -202,6 +206,6 @@ Save and upload the template again. When you view it you'll see the heading is n
 
 ---
 
-Just keep in mind that the PDF software doesn't function exactly like a web browser. Not all [HTML or CSS is supported](#) in PDFs and [cascading CSS support is limited](#).
+Just keep in mind that the PDF software doesn't function exactly like a web browser. Not all [HTML or CSS is supported](https://gpdfv4.pv/v4-docs/developer-supported-html-and-css/) in PDFs and [cascading CSS support is limited](https://gpdfv4.pv/v4-docs/developer-supported-html-and-css/#cascading-limitations).
 
 [^1]: For legacy reasons ensure you don't name your template `configuration.php` or `configuration.archive.php`.

@@ -9,13 +9,15 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-backgrounds/
 published: true
 kodex_post_likes_count:
-  - "0"
+  - "1"
 kodex_post_dislikes_count:
-  - "0"
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-Background colours, gradients and images can be applied to all block HTML elements in the PDF, including the whole page, while inline HTML elements only support the background colour property. There's good support for most image CSS properties, allowing finite control over background images, image resolution, opacity and transparency.
+Background colours, gradients and images can be applied to all block HTML elements in the PDF, including the whole page, while inline HTML elements only support the background colour property. There's good support for most image CSS properties, allowing precise control over background images, image resolution, opacity and transparency.
+
+![Showing off the different background types supported](https://gpdfv4.pv/app/uploads/2015/11/backgrounds.png)
 
 The following background-related CSS properties are supported:
 
@@ -38,7 +40,7 @@ Background colours can be set using the `background` or `background-color` CSS p
 * `hsl(360, 100%, 100%)`
 * `hsla(360, 100%, 100%, 1)` – the last value is the alpha transparency and should be between 0-1.
 * `cmyk(100, 100, 100, 100)`
-* `cmyka(100, 100, 100, 100, 1) – the last value is the alpha transparency and should be between 0-1.
+* `cmyka(100, 100, 100, 100, 1)` – the last value is the alpha transparency and should be between 0-1.
 * `spot(PANTONE 534, 100%, 85, 65, 47, 9)` – defined as: name, tint, C, M, Y, K.
 
 ```{.language-html}

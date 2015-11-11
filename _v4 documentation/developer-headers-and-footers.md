@@ -9,13 +9,13 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-headers-and-footers/
 published: true
 kodex_post_likes_count:
-  - "0"
+  - "1"
 kodex_post_dislikes_count:
-  - "0"
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
-Headers and footers are a powerful feature of the PDF rendering software, [mPDF](http://mpdf1.com/). They aren't just limited to every page either, you have granular control over which pages your headers and footers display on.
+Headers and footers are a powerful feature of the PDF rendering software, [mPDF](http://mpdf1.com/manual/index.php). They aren't just limited to every page either, you have granular control over which pages your headers and footers display on.
 
 ![Example of PDF header and footer](https://gpdfv4.pv/app/uploads/2015/11/header-footer-support.png)
 
@@ -51,7 +51,7 @@ The `<htmlpagefooter>` tag allows you to define a footer template and everything
     <table style="vertical-align: bottom; font-family: serif; font-size: 8pt; color: #000000; font-weight: bold; font-style: italic;" width="100%">
         <tbody>
             <tr>
-                <td width="33%"><span style="font-weight: bold; font-style: italic;">{DATE j-m-Y}</span></td>
+                <td width="33%"><span style="font-weight: bold; font-style: italic;">Copyright 2016</span></td>
                 <td style="font-weight: bold; font-style: italic;" align="center" width="33%">{PAGENO}/{nbpg}</td>
                 <td style="text-align: right;" width="33%">My document</td>
             </tr>
