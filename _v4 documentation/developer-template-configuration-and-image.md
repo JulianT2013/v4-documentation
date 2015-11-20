@@ -121,47 +121,47 @@ Below are details of all the core fields available to you
 
 show_form_title [#show_form_title](#show_form_title){#show_form_title}
 :   Adds a Yes/No field to the template section asking users if they want to shows the Gravity Form title at the beginning of the PDF template.
-:   Only applicable when template is using `$pdf->process_html_structure()`
+:   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 show_page_names [#show_page_names](#show_page_names){#show_page_names}
 :   Adds a Yes/No field to the template section asking users if they want to show Gravity Form page names in the appropriate location within the PDF.
-:   Only applicable when template is using `$pdf->process_html_structure()`
+:   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 show_html [#show_html](#show_html){#show_html}
 :   Adds a Yes/No field to the template section asking users if they want to show Gravity Form HTML fields in the PDF.
-:   Only applicable when template is using `$pdf->process_html_structure()`
+:   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 show_section_content [#show_section_content](#show_section_content){#show_section_content}
 :   Adds a Yes/No field to the template section asking users if they want to show Section break content in the PDF.
-:   Only applicable when template is using `$pdf->process_html_structure()`
+:   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 show_hidden [#show_hidden](#show_hidden){#show_hidden}
 :   Adds a Yes/No field to the template section asking users if they want to show Hidden fields in the PDF
-:   Only applicable when template is using `$pdf->process_html_structure()`
+:   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 show_empty [#show_empty](#show_empty){#show_empty}
 :   Adds a Yes/No field to the template section asking users if they want to show fields that haven't been filled in by the user.
-:   Only applicable when template is using `$pdf->process_html_structure()`
+:   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 header [#header](#header){#header}
 :   Adds a Rich Text Editor to the template section allowing users to include information in the header of the PDF
-:   Requires you to modify your template to support headers
+:   Unless you use `@page` to set your own header, the core header will automatically be included in your PDF.
 
 first_header [#first_header](#first_header){#first_header}
 :   Adds a Rich Text Editor to the template section allowing users to include information in a header on the first page of the PDF
-:   Requires you to modify your template to support headers
+:   Unless you use `@page` to set your own header, the core header will automatically be included in your PDF.
 
 footer [#footer](#footer){#footer}
 :   Adds a Rich Text Editor to the template section allowing users to include information in the footer of the PDF
-:   Requires you to modify your template to support footers
+:   Unless you use `@page` to set your own footer, the core footer will automatically be included in your PDF.
 
 first_footer [#first_footer](#first_footer){#first_footer}
 :   Adds a Rich Text Editor to the template section allowing users to include information in a footer on the first page of the PDF
-:   Requires you to modify your template to support footers
+:   Unless you use `@page` to set your own footer, the core footer will automatically be included in your PDF.
 
 background [#background](#background){#background}
 :   Adds an upload box to the template section allowing users to upload and select a background image for the PDF
-:   Requires you to modify your template to support backgrounds
+:   Unless you use `@page` to set your own background, the core background will automatically be included in your PDF.
 
 ##### Custom Fields [#custom-fields](#custom-fields){#custom-fields}
 
@@ -202,72 +202,42 @@ public function configuration() {
 Below are details about the most common field attributes that can be used when defining custom template fields:
 
 id [#id](#id){#id}
-:   The field ID. This should be unique and we recommend prefixing it
+:   The field ID. This should be unique and we recommend prefixing it.
 
 name [#name](#name){#name}
-:   The field label displayed to the user
+:   The field label displayed to the user.
 
 type [#type](#type){#type}
-:   The field type. Acceptable values include: `text`, `number`, `checkbox`, `multicheck`, `radio`, `select`, `textarea`, `password`, `rich_editor`, `upload`, `color`, `button`, `descriptive_text`, `hook`
+:   The field type. Acceptable values include: `text`, `number`, `checkbox`, `multicheck`, `radio`, `select`, `textarea`, `password`, `rich_editor`, `upload`, `color`, `button`, `descriptive_text`, `hook`.
 
 desc [#desc](#desc){#desc}
-:   The field description. This will be displayed right below the field
+:   The field description. This will be displayed right below the field.
 
 options [#options](#options){#options}
-:   An array of options for use in `multicheck`, `radio`, `select`
+:   An array of options for use in `multicheck`, `radio`, `select`.
 
 std [#std](#std){#std}
-:   The standard value that should be defined when a user hasn't set anything
+:   The standard value that should be defined when a user hasn't set anything.
 
 class [#class](#class){#class}
-:   Add class name to field
+:   Add class name to field.
 
 Because only certain options apply to certain fields this isn't an exhaustive list of available attributes, but they are the most common. 
 
 For more details we recommend you review the `/src/helper/Helper_Options_Fields.php` files for samples showing you different field types. You can also see what attributes are supported by a specific field type by reviewing the `/src/helper/Helper_Options.php` – from line 1400 onwards.
 
-#### Template Field Support [#template-field-support](#template-field-support){#template-field-support}
+#### Custom Field Support [#custom-field-support](#custom-field-support){#custom-field-support}
 
-Now you've added a list of field to your configuration which your template will support you actually need to update your PDF template to support them. In your PDF template you'll have access to a variable named `$settings`. This array contains all the settings a user has defined and is where your template settings will be located. 
+The `header`, `first_header`, `footer`, `first_footer` and `background` core fields are automagically supported in custom PDF templates (provided you don't override them with your own header/footer or background using `@page`). However, you'll need to update your PDF template to support any custom fields you create. 
 
-Let's first have a look at supporting a core field like `header` and then move onto supporting a custom field like `prefix_border_colour`.
-
-##### Header Support [#header-support](#header-support){#header-support}
-
-In your PDF template we first need to check if the header setting exists in our `$settings` array. If it's found we need to run the header through our `$gfpdf->misc->fix_header_footer()` method because the raw user input for headers and footers can cause issues:
-
-```{.language-php}
-global $gfpdf;
-$header = ( ! empty( $settings['header'] ) ) ? $gfpdf->misc->fix_header_footer( $settings['header'] ) : '';
-```
-
-Now we have access to the header HTML we then need to tell your template to display it. This can be done using the `@page` CSS type and a unique HTML tag `<htmlpageheader>`.
-
-```{.language-html}
-    <style>
-        @page {
-            <?php if ( ! empty($header) ) : ?>
-                header: html_Header;
-            <?php endif; ?>         
-        }
-    </style>
-</head>
-<body>
-        <htmlpageheader name="Header">
-            <div id="header">
-                <?php echo $header; ?>
-            </div>
-        </htmlpageheader>
-```        
-
-[See our Headers and Footers documentation](https://gpdfv4.pv/v4-docs/developer-headers-and-footers/) for more information about using them in PDF templates.
+To do this, in your PDF template you'll have access a variable named `$settings`. This array contains all the settings a user has defined (using the field ID as the array key) and is where your template settings will be located. Let's have a look at supporting our `prefix_border_colour` custom field.
 
 ##### Border Colour Support [#border-colour-support](#border-colour-support){#border-colour-support}
 
-Similarly to the header field, we need to get the `prefix_border_colour` setting from the `$settings` array:
+First we need to get the `prefix_border_colour` setting from the `$settings` array. As we mentioned earlier, the `$settings` array is loaded with our PDF user settings which can be accessed by the field ID:
 
 ```{.language-php}
-$border_colour = ( ! empty( $settings['prefix_border_colour'] ) ) ? $settings['prefix_border_colour'] : '#000';
+$border_colour = ( ! empty( $settings['prefix_border_colour'] ) ) ? $settings['prefix_border_colour'] : '#000'; //check if the setting exists and use it, otherwise fall back to black
 ```
 
 The `$border_colour` variable will now contain the user-selected colour, or fall back to black. Now we can apply the border colour to an element in our PDF template:
@@ -342,7 +312,7 @@ public function configuration() {
 }
 ```
 
-We've just told Gravity PDF about a new radio field called *Show Meta Data* that has Yes/No options. By default the *No* value will be selected and a nice description about what the field does is shown just below the radio buttons. We've also prefixed our field ID with `world_` so we don't clash with any other fields. And because we are conscientious developers we've made all our strings translatable by wrapping them [in the `__()` function](https://developer.wordpress.org/reference/functions/__/) – only translate the `option` array's value, not the key. 
+We've just told Gravity PDF about a new radio field called *Show Meta Data* that has Yes/No options. By default the *No* value will be selected and a nice description about what the field does is shown just below the radio buttons. We've also prefixed our field ID with `world_` so we don't clash with any other fields. And because we are conscientious developers we've made all our strings translatable by wrapping them [in the `__()` function](https://developer.wordpress.org/reference/functions/__/). Make sure you only translate the `option` array's value and not the key. 
 
 [Read more about the specifics of each field attribute](#custom-fields). 
 
@@ -352,9 +322,11 @@ If you go back to the [Template tab](https://gpdfv4.pv/v4-docs/user-setup-pdf/#t
 
 #### PDF Custom Field Support [#pdf-custom-field-support](#pdf-custom-field-support){#pdf-custom-field-support}
 
-Now we're capturing and saving the footer, background and meta data toggle from the user we need to update our original *Hello World* PDF template to support those fields. If you haven't been following along with the other tutorials you can [download the current PDF template here](https://gist.github.com/blueliquiddesigns/c7dea5d0953374970f71). 
+Now we're capturing and saving the footer, background and meta data toggle from the user we need to update our original *Hello World* PDF template. The core header/footer and background fields will automatically be included, but we'll need to update the PDF template to support our custom field. 
 
-First, we'll integrate our custom *Meta Data* field, as it's the easiest to include. [If you remember from earlier](#template-field-support), the `$settings` array holds all our custom fields and is where we'll found out meta data setting. To keep our PDF template clean we'll set the settings variables at the beginning of the template (before the HTML).
+If you haven't been following along with the other tutorials you can [download the current PDF template here](https://gist.github.com/blueliquiddesigns/c7dea5d0953374970f71). 
+
+[If you remember from earlier](#template-field-support) the `$settings` array holds all our custom fields and is where we'll found out meta data setting. To keep our PDF template clean we'll set the settings variables at the beginning of the template (before the HTML).
 
 ```{.language-php}
 /* Prevent direct access to the template (always good to include this) */
@@ -387,55 +359,7 @@ Here we are checking if our our *Show Meta Data* field exists in the settings ar
 <?php endif; ?>
 ```
 
-If you've enabled the *View Meta Data* option, when you view the *Hello World* PDF you'll see the meta data included. The footer and background fields don't require much more effort, but we'll need to use a special CSS selector `@page` and the `<htmlpagefooter>` HTML.
-
-```{.language-php}
-/**
- * Load our template-specific settings 
- */
-global $gfpdf; 
-
-$show_meta_data = ( ! empty( $settings['world_show_meta_data']) ) ? $settings['world_show_meta_data']                      : 'No';
-$background_img = ( ! empty( $settings['background'] ) ) ?          $settings['background']                                : '';
-$footer         = ( ! empty( $settings['footer'] ) ) ?              $gfpdf->misc->fix_header_footer( $settings['footer'] ) : '';
-```
-
-Very similar to the *Meta Data* field, we've assigned the background and footer to variables. The major difference is we've had to run our footer through our `$gfpdf->misc->fix_header_footer()` method which prevents problems rendering user-data in the PDF's header and footer. 
-
-Next we'll set up our footer HTML tag `<htmlpagefooter>` so the PDF software knows any code inside it should be included in the footer.
-
-```{.language-html}
-<body>
-
-   <htmlpagefooter name="TemplateFooter">
-       <div class="footer">
-           <?php echo $footer; ?>
-       </div>
-   </htmlpagefooter>
-```
-
-Finally, we'll tell the software to use our new footer on all pages and assign our background image.
-
-```{.language-html}
-<style>
-    @page {          
-        <?php if ( ! empty($footer) ) : ?>
-            footer: html_TemplateFooter;
-            margin-footer: 5mm;
-        <?php endif; ?>
-
-        <?php if ( ! empty($background_img) ) : ?>
-            background-image: url(<?php echo $background_img; ?>) no-repeat 0 0;
-            background-image-resize: 4;
-        <?php endif; ?>
-    }
-```
-
-We're telling the system that if our footer exists we should assign it on all pages and give it a 5mm bottom margin, and if our background exists use it and resize it to fit the document's width. 
-
-The `@page` selector for PDFs is quite robust and [we recommend you take a look at the mPDF documentation](http://mpdf1.com/manual/index.php?tid=307) for more information. 
-
-That's all there is to it. You've now added support for all three template-specific fields to the *Hello World* PDF. 
+If you've enabled the *View Meta Data* option, when you view the *Hello World* PDF you'll see the meta data included. That's all there is to it. You've now added support for all three template-specific fields to the *Hello World* PDF. 
 
 [Download the completed Hello World PDF Template for Part 4](https://gist.github.com/blueliquiddesigns/49ec98ddbb0dd64d42ae).
 

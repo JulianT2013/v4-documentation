@@ -9,9 +9,9 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-template-hierarchy/
 published: true
 kodex_post_likes_count:
-  - "0"
+  - "1"
 kodex_post_dislikes_count:
-  - "0"
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 

@@ -67,6 +67,8 @@ There are two different methods to assign headers and footers:
 1. Using the special CSS selector `@page`
 1. Using mPDF's custom HTML setter tags `<sethtmlpageheader>` and `<sethtmlpagefooter>`
 
+**Setting your own header or footer in your PDF template [will override the core header and footer fields](https://gpdfv4.pv/v4-docs/developer-template-configuration-and-image/#configuration-structure)**.
+
 #### @page [#at-page](#at-page){#at-page}
 
 Using `@page` is the preferred way to set a header or footer in the PDF as it has less quirks and keeps your HTML mark-up cleaner.

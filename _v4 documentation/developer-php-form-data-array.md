@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/developer-php-form-data-array/
 published: true
+kodex_post_likes_count:
+  - "1"
+kodex_post_dislikes_count:
+  - "1"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
@@ -125,7 +129,7 @@ And IF/ELSE conditions are simple too:
 
 ### Doing More With PHP [#doing-more-with-php](#doing-more-with-php){#doing-more-with-php}
 
-With the full power of PHP post-processing Gravity Form data becomes easy. Case in point, it's relatively easy to determine the age of someone using their date of birth. 
+With the full power of PHP at your finger tips post-processing Gravity Form data becomes easy. Case in point, it's relatively easy to determine the age of someone using their date of birth. 
 
 Let's go back to the *Hello World* sample form and add a date field. For simplicities sake, name it *Date of Birth* and change the *Date Format* to `dd-mm-yyyy` then save your form. Finally, submit a new entry, making sure you fill in your new date of birth field. Now let's add our PHP logic to display the age in your PDF template:
 

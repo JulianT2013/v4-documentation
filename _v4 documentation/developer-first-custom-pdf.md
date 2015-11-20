@@ -109,6 +109,9 @@ $form_data [#form_data](#form_data){#form_data}
 $settings [#settings](#settings){#settings}
 :     The current PDF configuration settings in array format. Custom template settings are stored in this array. [View full documentation on custom template configuration](#).
 
+$gfpdf [#gfpdf](#gfpdf){#gfpdf}
+:    This is the main Gravity PDF object which contains all our helper classes (including data, form, options, notices, misc and log). Power users may find this useful.
+
 $args [#args](#args){#args}
 :     Contains an array of all variables passed to a PDF template. This includes all of the above variables in an associative array – for instance `$args['form']` or `$args['entry']`
 
@@ -161,9 +164,6 @@ Next we're going to layout the basic HTML structure. Go ahead and add the follow
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <!-- Any PDF CSS styles can be placed in the style tag below -->
     <style>
 
