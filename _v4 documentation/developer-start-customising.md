@@ -58,6 +58,6 @@ For those developers looking for in-depth knowledge about the PDF engine, mPDF, 
 
 ![Sample of a filter available](https://gpdfv4.pv/app/uploads/2015/11/filters.png)
 
-We've worked hard to document as many of the filters and actions available in Gravity PDF. This includes changing the output of particular Gravity Form fields to controlling the PDF security (we call it middleware). If you need a new filter or action added [please open a new ticket on GitHub](https://github.com/GravityPDF/gravity-forms-pdf-extended/issues).
+We've worked hard to document as many of the filters and actions available in Gravity PDF. This includes changing the output of particular Gravity Form fields to controlling the PDF security (we call it middleware). If you need a new filter or action added [please open a new ticket on GitHub](https://github.com/GravityPDF/gravity-pdf/issues).
 
 [Tell me more about Gravity PDF actions and filters](#).
