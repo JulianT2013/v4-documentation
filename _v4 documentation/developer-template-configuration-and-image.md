@@ -159,9 +159,13 @@ first_footer [#first_footer](#first_footer){#first_footer}
 :   Adds a Rich Text Editor to the template section allowing users to include information in a footer on the first page of the PDF
 :   Unless you use `@page` to set your own footer, the core footer will automatically be included in your PDF.
 
+background_color [#background_color](#background_color){#background_color}
+:   Adds a colour picker to the template section allowing users to change the PDF background colour.
+:   Unless you use `@page` to set your own background(-color), the background colour will automatically be included in your PDF.
+
 background_image [#background_image](#background_image){#background_image}
 :   Adds an upload box to the template section allowing users to upload and select a background image for the PDF
-:   Unless you use `@page` to set your own background(-image), the core background image will automatically be included in your PDF.
+:   Unless you use `@page` to set your own background(-image), the background image will automatically be included in your PDF.
 
 ##### Custom Fields [#custom-fields](#custom-fields){#custom-fields}
 
