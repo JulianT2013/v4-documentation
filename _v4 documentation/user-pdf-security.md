@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/user-pdf-security/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ![Access Denied to PDF](https://gpdfv4.pv/app/uploads/2015/10/access-denied.png) 
 
@@ -19,7 +23,7 @@ Once you've installed the plugin it's **strongly recommended** you review the se
 
 ### Default Security [#default-security](#default-security){#default-security}
 
-> **tldr** – The default security settings allow the user who submits the entry to view their own PDF. Site Administrators and Network Super Administrators can view all PDFs.
+> **tl;dr** – The default security settings allow the user who submits the entry to view their own PDF. Site Administrators and Network Super Administrators can view all PDFs.
 
 The software ships with conservative defaults that provides a well-balanced mix of PDF access and security. By default, the following users will be able to access PDFs:
 
@@ -37,7 +41,7 @@ To correctly test the owner security policy you'll need to submit a new entry us
 
 ### PDFs and the File System [#filesystem](#filesystem){#filesystem}
 
-> **tldr** – PDFs stored on the disk have a limited lifespan, and are usually protected from direct access, but it's advisable to use [the `gfpdf_tmp_directory_location` filter](#) to change the PDF directory to somewhere outside your public directory structure.
+> **tl;dr** – PDFs stored on the disk have a limited lifespan, and are usually protected from direct access, but it's advisable to use [the `gfpdf_tmp_directory_location` filter](#) to change the PDF directory to somewhere outside your public directory structure.
 
 Currently, the only time a PDF is actually saved to disk is when it's configured to be [attached to a form's notification(s)](https://gpdfv4.pv/v4-docs/setup-pdf/#notifications), or the [*Always Save PDF* setting](https://gpdfv4.pv/v4-docs/setup-pdf/#save-pdf) is enabled. These PDFs are saved locally to `/wp-content/uploads/PDF_EXTENDED_TEMPLATES/tmp` by default but are cleaned up automatically from the disk once the Gravity Forms submission process has been completed. Any stray documents older than 12 hours are also automatically cleaned up. 
 
@@ -69,7 +73,7 @@ If your PDF is never meant to be viewed by the end user you can enable the [*Res
 
 ### Enable Public Access [#enable-public-access](#enable-public-access){#enable-public-access}
 
-If you want to enable public access to the PDFs generated from your Gravity Form you can do so with the [*Enable Public Access* (TODO: add field to individual PDF)](#) option. Use this option sparingly as it will allow anyone worldwide to access PDFs generated from your form – search engines may even index the documents. In the majority of cases the standard security protocols are sufficient.
+If you want to enable public access to the PDFs generated from your Gravity Form you can do so with the [*Enable Public Access*](https://gpdfv4.pv/v4-docs/user-setup-pdf/#enable-public-access) option. Use this option sparingly as it will allow anyone worldwide to access PDFs generated from your form – search engines may even index the documents (but are discouraged to do so). In the majority of cases the standard security protocols are sufficient.
 
 ---
 
