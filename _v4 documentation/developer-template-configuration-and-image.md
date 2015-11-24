@@ -111,7 +111,7 @@ public function configuration() {
             'show_page_names'      => true,
             'show_html'            => true,
             'show_section_content' => true,
-            'show_hidden'          => true,
+            'enable_conditional'   => true,
         ),
     );
 }
@@ -135,8 +135,8 @@ show_section_content [#show_section_content](#show_section_content){#show_sectio
 :   Adds a Yes/No field to the template section asking users if they want to show Section break content in the PDF.
 :   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
-show_hidden [#show_hidden](#show_hidden){#show_hidden}
-:   Adds a Yes/No field to the template section asking users if they want to show Hidden fields in the PDF
+enable_conditional [#enable_conditional](#enable_conditional){#enable_conditional}
+:   Adds a Yes/No field to the template section asking users if they want to enable conditional logic in the PDF
 :   Only applicable when template is using `$pdf->process_html_structure()` in your PDF template.
 
 show_empty [#show_empty](#show_empty){#show_empty}
