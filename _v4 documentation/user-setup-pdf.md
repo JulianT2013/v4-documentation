@@ -140,17 +140,18 @@ Show Page Names [#show-page-names](#show-page-names){#show-page-names}
 
 Show HTML Fields [#show-html-fields](#show-html-fields){#show-html-fields}
 :    Show your form's HTML fields in the PDF.
-:    If your HTML has conditional logic this will be honoured in the PDF. See [#show-hidden-fields](#show-hidden-fields) to disable this feature.
+:    If your HTML has conditional logic this will be honoured in the PDF. See [#enable-conditional-logic](#enable-conditional-logic) to disable this feature.
 
 Show Section Break Description [#show-section-break-description](#show-section-break-description){#show-section-break-description}
 :    The [*Section Break* field](https://www.gravityhelp.com/documentation/article/section-break/) allows you to enter a label and description. By default, a PDF will only show a section break's *label*. Enabling this option will also show the section break description.
 
-Show Hidden Fields [#show-hidden-fields](#show-hidden-fields){#show-hidden-fields}
-:    **NEEDS REVIEW**
+Enable Conditional Logic [#enable-conditional-logic](#enable-conditional-logic){#enable-conditional-logic}
+:    When this option is enabled, the Gravity Form field conditionals you set in your form will be adhered to in the PDF. This means if a field's conditional logic says it should hidden then it won't be included in the PDF. 
+:    This option is useful when you have [#show-empty-fields](#show-empty-fields) enabled.
 
 Show Empty Fields [#show-empty-fields](#show-empty-fields){#show-empty-fields}
 :    By default, any field not completed by the user won't be shown in the PDF document. When enabled this option will display all fields, regardless of whether the user filled it out.
-:    Conditional logic is honoured on all fields, including empty ones. See [#show-hidden-fields](#show-hidden-fields) to disable this feature.
+:    Conditional logic is honoured on all fields, including empty ones. See [#enable-conditional-logic](#enable-conditional-logic) to disable this feature.
 
 Header [#header](#header){#header}
 :    Add a header to your PDF document using the WordPress Editor. You can use the media library to include a simple logo. Or add a more robust three-column table.
