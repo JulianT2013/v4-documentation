@@ -23,7 +23,7 @@ It's important to note that only certain PDF templates have these filtering opti
 
 ### What is Displayed? [#what-is-displayed](#what-is-displayed){#what-is-displayed}
 
-Gravity PDF will adhere to your forms conditional logic when generating a PDF. That means if the conditional logic determines a field (or entire section) should be hidden it won't get displayed on the PDF. Also, if a user doesn't fill in anything for a particular field it won't be displayed either. Both of these settings can be modified – see [#show-hidden-fields](#) and [#show-empty-fields](https://gpdfv4.pv/v4-docs/setup-pdf/#show-empty-fields). 
+Gravity PDF will adhere to your forms conditional logic when generating a PDF. That means if the conditional logic determines a field (or entire section) should be hidden it won't get displayed on the PDF. Also, if a user doesn't fill in anything for a particular field it won't be displayed either. Both of these settings can be modified – see [#enable-conditional-logic](https://gpdfv4.pv/v4-docs/user-setup-pdf/#enable-conditional-logic) and [#show-empty-fields](https://gpdfv4.pv/v4-docs/setup-pdf/#show-empty-fields). 
 
 HTML and Page fields are also hidden by default, but they can be enabled using the [#show-page-names](https://gpdfv4.pv/v4-docs/setup-pdf/#show-page-names) and [#show-html-fields](https://gpdfv4.pv/v4-docs/setup-pdf/#show-html-fields) options. 
 
