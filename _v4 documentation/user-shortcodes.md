@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/user-shortcodes/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 ![The PDF Form List Page](https://gpdfv4.pv/app/uploads/2015/10/shortcode-sample.png) 
 
@@ -42,6 +46,9 @@ ID (required) [#id-attribute](#id-attribute){#id-attribute}
 
     */wp-admin/admin.php?page=gf_edit_forms&view=settings&subview=pdf&id=2&pid=**560f2ef799945***
 :    *Example:* `[gravitypdf id="560f2ef799945"]`
+
+Name (optional) [#name-attribute](#name-attribute){#name-attribute}
+:    This attribute doesn't effect the shortcode in any way, but does allow you to quickly determine which PDF it references. 
 
 Text (optional) [#text-attribute](#text-attribute){#text-attribute}
 :    This attribute allows you to change the generated link's text which the end-user will see.
