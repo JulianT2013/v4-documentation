@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/user-setup-pdf/
 published: true
+kodex_post_likes_count:
+  - "1"
+kodex_post_dislikes_count:
+  - "1"
 ---
 ![Adding new PDF Form](https://gpdfv4.pv/app/uploads/2015/10/Add-new-pdf.png) 
 

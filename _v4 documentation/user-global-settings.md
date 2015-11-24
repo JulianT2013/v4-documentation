@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/user-global-settings/
 published: true
+kodex_post_likes_count:
+  - "1"
+kodex_post_dislikes_count:
+  - "1"
 ---
 ![Gravity PDF Global Settings Page](https://gpdfv4.pv/app/uploads/2015/10/general-settings.png) 
 
