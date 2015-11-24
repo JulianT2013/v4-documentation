@@ -9,9 +9,9 @@ permalink: >
   https://gpdfv4.pv/v4-docs/user-setup-pdf/
 published: true
 kodex_post_likes_count:
-  - "1"
+  - "0"
 kodex_post_dislikes_count:
-  - "1"
+  - "0"
 ---
 ![Adding new PDF Form](https://gpdfv4.pv/app/uploads/2015/10/Add-new-pdf.png) 
 
@@ -210,3 +210,7 @@ Image DPI [#image-dpi](#image-dpi){#image-dpi}
 
 Always Save PDF [#save-pdf](#save-pdf){#save-pdf}
 :    By default, when a new Gravity Form entry is submitted a PDF is only ever saved to disk when the [#notifications](#notifications) feature is enabled. When this setting is active this option is very useful in conjunction with the `gfpdf_post_pdf_save` filter – which can be used to copy the generated PDF to an alternate location.
+
+Enable Public Access [#enable-public-access](#enable-public-access){#enable-public-access}
+:    Enabling public access to the PDF will **disable all security protocols** and give anonymous users access to the PDF(s). This means anyone worldwide can view the PDF document for all your form's entries. 
+:    For most users the [standard security measures](https://gpdfv4.pv/v4-docs/user-pdf-security/) will be adequate and public access should remain disabled.
