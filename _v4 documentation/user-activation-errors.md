@@ -8,6 +8,10 @@ layout: v4_docs
 permalink: >
   https://gpdfv4.pv/v4-docs/user-activation-errors/
 published: true
+kodex_post_likes_count:
+  - "0"
+kodex_post_dislikes_count:
+  - "0"
 ---
 When Gravity PDF is activated it will run a number of checks to ensure your web server meets all the [software requirements](#). It also verifies the minimum version requirements for WordPress and Gravity Form. If it detects a problem a notice will be displayed in your admin area. 
 
@@ -27,7 +31,7 @@ When Gravity PDF is activated it will run a number of checks to ensure your web 
 
 #### WordPress Version 4.X is required [#wordpress-version](#wordpress-version){#wordpress-version}
 
-This error means your WordPress software doesn't meet the minimum software requirements – currently WordPress 3.9 and above are supported. To resolve the issue use WordPress' One-Click Update feature to get the latest version. Navigate to `Dashboard > Updates` in your admin area to update WordPress.
+This error means your WordPress software doesn't meet the minimum software requirements – currently WordPress 4.0 and above are supported. To resolve the issue use WordPress' One-Click Update feature to get the latest version. Navigate to `Dashboard > Updates` in your admin area to update WordPress.
 
 ---
 
