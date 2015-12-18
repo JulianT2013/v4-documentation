@@ -65,6 +65,10 @@ Classes (optional) [#classes-attribute](#classes-attribute){#classes-attribute}
 :    If the `classes` attribute isn't present it will default to `gravitypdf-download-link`.
 :    *Example:* `[gravitypdf id="560f2ef799945" classes="my-custom-button-class"]` or `[gravitypdf id="560f2ef799945" classes="my-custom-button-class a-second-class"]`
 
+Print (optional) [#print-attribute](#print-attribute){#print-attribute}
+:    The `print` attribute will automatically open a print dialog box when the PDF is viewed. 
+:    *Example:* `[gravitypdf id="560f2ef799945" print="true"]`
+
 Entry (semi-optional) [#entry-attribute](#entry-attribute){#entry-attribute}
 :    When the shortcode is used in Gravity Form confirmations or notifications this attribute can be omitted (as we already know which entry is being processed). However, if you want to use the shortcode outside of that environment you need to pass in the Gravity Form entry ID.
 :    Alternatively, instead of passing the entry ID directly to the shortcode you can set the ID via URL parameters (the "query string"). If the `entry` or `lid` URL parameters exist its value will be used as the ID (see [#page-confirmation](#page-confirmation){#page-confirmation} for more details).
