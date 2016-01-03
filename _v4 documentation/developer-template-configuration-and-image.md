@@ -9,9 +9,9 @@ permalink: >
   https://gpdfv4.pv/v4-docs/developer-template-configuration-and-image/
 published: true
 kodex_post_likes_count:
-  - "1"
+  - "0"
 kodex_post_dislikes_count:
-  - "1"
+  - "0"
 ---
 ### Introduction [#introduction](#introduction){#introduction}
 
@@ -48,7 +48,13 @@ Your PHP configuration template file should have the same name as your PDF templ
 
 #### Configuration Mark-Up [#configuration-mark-up](#configuration-mark-up){#configuration-mark-up}
 
-The actual PHP configuration structure is straightforward, but we recommend you base your template off one of the existing configuration files. What's important is to change the files class name to match your PDF template – hyphens should be replaced with underscores. Going back to our `my-super-custom-template.php` example, the class name would be `my_super_custom_template`. Below is a sample for our `my-super-custom-template.php` configuration file:
+The actual PHP configuration structure is straightforward, but we recommend you base your template off one of the existing configuration files. What's important is to change the file's class name to match your PDF template. There are a few rules to keep in mind when setting a class name using the template's file name:
+
+1. The file extension is omitted (.php)
+1. Any hyphens (-) should be replaced with underscores (_)
+1. The class name should be in sentence case (the first character of each word separated by a hyphen (-) or underscore (_) should be upper case)
+
+Going back to our `my-super-custom-template.php` example, the class name would be `My_Super_Custom_Template`. Below is a sample for our `my-super-custom-template.php` configuration file:
 
 ```{.language-php}
 <?php
@@ -67,13 +73,18 @@ if ( ! defined('ABSPATH') ) {
 }
 
 /**
- * The configuration class name should be the exact same as the template file name (with hyphens replaced with underscores)
+ * The configuration class name should be the same name as the PHP template file name with the following modifications:
+ *     The file extension is omitted (.php)
+ *     Any hyphens (-) should be replaced with underscores (_)
+ *     The class name should be in sentance case (the first character of each word separated by a hyphen (-) or underscore (_) should be uppercase)
  *
- * For instance, a template called core-simple.php would have a class of "core_simple"
+ * For instance, a template called core-simple.php or core_simple.php would have a configuration class of "Core_Simple"
  *
- * This naming convention is very important, otherwise the software cannot correctly load the configuration
+ * This naming convension is very important, otherwise the software cannot correctly load the configuration
+ *
+ * @since 4.0
  */
-class my_super_custom_template implements Helper_Interface_Config {
+class My_Super_Custom_Template implements Helper_Interface_Config {
 
     /**
      * Return the templates configuration structure which control what extra fields will be shown in the "Template" tab when configuring a form's PDF.
