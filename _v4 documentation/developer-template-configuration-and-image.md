@@ -76,11 +76,11 @@ if ( ! defined('ABSPATH') ) {
  * The configuration class name should be the same name as the PHP template file name with the following modifications:
  *     The file extension is omitted (.php)
  *     Any hyphens (-) should be replaced with underscores (_)
- *     The class name should be in sentance case (the first character of each word separated by a hyphen (-) or underscore (_) should be uppercase)
+ *     The class name should be in sentence case (the first character of each word separated by a hyphen (-) or underscore (_) should be uppercase)
  *
  * For instance, a template called core-simple.php or core_simple.php would have a configuration class of "Core_Simple"
  *
- * This naming convension is very important, otherwise the software cannot correctly load the configuration
+ * This naming convention is very important, otherwise the software cannot correctly load the configuration
  *
  * @since 4.0
  */
