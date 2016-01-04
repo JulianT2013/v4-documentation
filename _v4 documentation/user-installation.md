@@ -34,7 +34,7 @@ Gravity PDF can be run on most shared web hosting, however there are some restri
 **Software Requirements**
 
 * [Gravity Forms](https://www.e-junkie.com/ecom/gb.php?cl=54585&c=ib&aff=235154) 1.8+ (Gravity Forms 1.9+ recommended). [Any license type will work](https://gpdfv4.pv/v4-docs/gravity-forms-compatibility/#gravityforms-licenses).
-* WordPress 4.0+ (WordPress 4.4 recommended)
+* WordPress 4.2+ (WordPress 4.4 recommended)
 
 **Server Requirements**
 
