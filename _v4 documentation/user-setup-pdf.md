@@ -159,7 +159,7 @@ Header [#header](#header){#header}
 :    The special tags `{PAGENO}` – which displays the current page number – and `{nbpg}` – which displays the total number of pages in the document – can be used in the header.
 
 First Page Header [#first-page-header](#first-page-header){#first-page-header}
-:    When enabled you can add an alternate header to the first page of your PDF document.
+:    When enabled you can add a different header to the first page of your PDF document.
 :    Gravity Form merge tags can be used in the header.
 :    The special tags `{PAGENO}` – which displays the current page number – and `{nbpg}` – which displays the total number of pages in the document – can be used in the header.
 
@@ -169,7 +169,7 @@ Footer [#footer](#footer){#footer}
 :    The special tags `{PAGENO}` – which displays the current page number – and `{nbpg}` – which displays the total number of pages in the document – can be used in the footer.
 
 First Page Footer [#first-page-footer](#first-page-footer){#first-page-footer}
-:    When enabled you can add an alternate footer to the first page of your PDF document.
+:    When enabled you can add a different footer to the first page of your PDF document.
 :    Gravity Form merge tags can be used in the footer.
 :    The special tags `{PAGENO}` – which displays the current page number – and `{nbpg}` – which displays the total number of pages in the document – can be used in the footer.
 
@@ -209,7 +209,7 @@ Image DPI [#image-dpi](#image-dpi){#image-dpi}
 :    Adjust the image DPI (Dots Per Inch). By default this is set to 96. If professionally printing you should set this to *300* and change the [#format](#format) to *PDF/X-1a*.
 
 Always Save PDF [#save-pdf](#save-pdf){#save-pdf}
-:    By default, when a new Gravity Form entry is submitted a PDF is only ever saved to disk when the [#notifications](#notifications) feature is enabled. When this setting is active this option is very useful in conjunction with the `gfpdf_post_pdf_save` filter – which can be used to copy the generated PDF to an alternate location.
+:    By default, when a new Gravity Form entry is submitted a PDF is only ever saved to disk when the [#notifications](#notifications) feature is enabled. When this setting is active this option is very useful in conjunction with the `gfpdf_post_pdf_save` filter, which can be used to copy the generated PDF to an alternate location.
 
 Enable Public Access [#enable-public-access](#enable-public-access){#enable-public-access}
 :    Enabling public access to the PDF will **disable all security protocols** and give anonymous users access to the PDF. This means anyone worldwide can view the PDF document for all your form's entries. 

@@ -72,9 +72,9 @@ Search for the plugin directly from your WordPress admin area and install it wit
 
 ---
 
-#### Manually Installation [#manual](#manual){#manual}
+#### Manual Installation [#manual](#manual){#manual}
 
-You can manually install the plugin by download the plugin zip file from WordPress.org and upload through your WordPress admin area[^2]. Due to the increase in fonts the total zip size is 25MB, however the majority of hosts limit uploads to 8MB so this method wouldn't be viable. You can check your maximum upload limit by navigating to `Media -> Add New` in your WordPress admin area and reviewing the *Maximum upload file size* limit. 
+You can manually install the plugin by downloading the plugin zip file from WordPress.org and then uploading through your WordPress admin area[^2]. Due to the increase in fonts included in the package the total zip size tops 25MB, while the majority of hosts limit uploads to 8MB. If that’s the case for you the manual installation method wouldn't be viable (try the [FTP](#ftp) method). You can check your maximum upload limit by navigating to `Media -> Add New` in your WordPress admin area and reviewing the ​*Maximum upload file size*​ limit.
 
 1. Access the plugin's [WordPress repository](https://wordpress.org/plugins/gravity-forms-pdf-extended/) and select the `Download Version 4.x.x` button. 
     ![Download the zip file](https://gpdfv4.pv/app/uploads/2015/10/download-plugin.png)
