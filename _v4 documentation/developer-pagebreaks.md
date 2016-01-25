@@ -6,7 +6,7 @@ post_date: 2015-11-10 06:10:15
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-pagebreaks/
+  https://gpdfv4.pv/documentation/v4/developer-pagebreaks/
 published: true
 kodex_post_likes_count:
   - "1"

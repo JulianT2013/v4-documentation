@@ -6,7 +6,7 @@ post_date: 2015-11-09 04:49:51
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-rounded-corners/
+  https://gpdfv4.pv/documentation/v4/developer-rounded-corners/
 published: true
 kodex_post_likes_count:
   - "0"

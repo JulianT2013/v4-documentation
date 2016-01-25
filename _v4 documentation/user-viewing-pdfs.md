@@ -6,7 +6,7 @@ post_date: 2015-11-07 08:32:26
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-viewing-pdfs/
+  https://gpdfv4.pv/documentation/v4/user-viewing-pdfs/
 published: true
 ---
 Once you've successfully configured a PDF on one of your Gravity Forms you'll be able to view and download the PDFs from the [Gravity Forms entries page](https://www.gravityhelp.com/documentation/article/entries/). 

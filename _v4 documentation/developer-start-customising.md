@@ -6,7 +6,7 @@ post_date: 2015-10-28 02:29:29
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-start-customising/
+  https://gpdfv4.pv/documentation/v4/developer-start-customising/
 published: true
 kodex_post_likes_count:
   - "1"

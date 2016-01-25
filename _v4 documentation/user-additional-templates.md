@@ -6,7 +6,7 @@ post_date: 2015-10-21 03:17:33
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-additional-templates/
+  https://gpdfv4.pv/documentation/v4/user-additional-templates/
 published: true
 ---
 While Gravity PDF ships with five free customisable PDF templates, they may not suit your specific purpose or use-case. That's why we've also built a [premium template theme shop](#theme-shop) to give you more layout and design choices. 

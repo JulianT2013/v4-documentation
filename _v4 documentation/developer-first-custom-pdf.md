@@ -6,7 +6,7 @@ post_date: 2015-10-28 03:42:52
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-first-custom-pdf/
+  https://gpdfv4.pv/documentation/v4/developer-first-custom-pdf/
 published: true
 kodex_post_likes_count:
   - "1"

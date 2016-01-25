@@ -6,7 +6,7 @@ post_date: 2015-11-04 03:58:34
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-headers-and-footers/
+  https://gpdfv4.pv/documentation/v4/developer-headers-and-footers/
 published: true
 kodex_post_likes_count:
   - "1"

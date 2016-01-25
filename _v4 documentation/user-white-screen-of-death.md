@@ -6,7 +6,7 @@ post_date: 2015-10-22 03:26:47
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-white-screen-of-death/
+  https://gpdfv4.pv/documentation/v4/user-white-screen-of-death/
 published: true
 ---
 ### Troubleshooting PHP Errors [#troubleshooting-php-errors](#troubleshooting-php-errors]){#troubleshooting-php-errors}

@@ -6,7 +6,7 @@ post_date: 2015-10-12 03:30:14
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-setup-pdf/
+  https://gpdfv4.pv/documentation/v4/user-setup-pdf/
 published: true
 kodex_post_likes_count:
   - "0"

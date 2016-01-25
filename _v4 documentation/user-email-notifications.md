@@ -6,7 +6,7 @@ post_date: 2015-10-22 03:27:46
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-email-notifications/
+  https://gpdfv4.pv/documentation/v4/user-email-notifications/
 published: true
 ---
 > One of the most common support request we get is users who aren't getting Gravity Form notification emails in their inbox. While we don't normally support Gravity Forms functionality – instead having users contact the [Gravity Forms support team](https://www.gravityhelp.com/support/) directly – we feel this issue is prevalent and complex enough to discuss.

@@ -6,7 +6,7 @@ post_date: 2015-10-21 01:08:49
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-css-ready-classes/
+  https://gpdfv4.pv/documentation/v4/user-css-ready-classes/
 published: true
 ---
 ![Snapshot of the CSS Ready PDF Classes](https://gpdfv4.pv/app/uploads/2015/10/css-ready.png) 

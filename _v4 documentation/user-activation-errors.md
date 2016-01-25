@@ -6,7 +6,7 @@ post_date: 2015-10-22 02:41:39
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-activation-errors/
+  https://gpdfv4.pv/documentation/v4/user-activation-errors/
 published: true
 kodex_post_likes_count:
   - "0"

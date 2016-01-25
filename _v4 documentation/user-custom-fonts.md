@@ -6,7 +6,7 @@ post_date: 2015-10-19 23:53:03
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-custom-fonts/
+  https://gpdfv4.pv/documentation/v4/user-custom-fonts/
 published: true
 ---
 ![Font Manager](https://gpdfv4.pv/app/uploads/2015/10/font-manager.png) 

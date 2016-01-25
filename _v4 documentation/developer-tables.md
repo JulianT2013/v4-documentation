@@ -6,7 +6,7 @@ post_date: 2015-11-10 04:17:45
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-tables/
+  https://gpdfv4.pv/documentation/v4/developer-tables/
 published: true
 kodex_post_likes_count:
   - "1"

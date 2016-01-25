@@ -6,7 +6,7 @@ post_date: 2015-10-19 02:27:51
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-managing-pdfs/
+  https://gpdfv4.pv/documentation/v4/user-managing-pdfs/
 published: true
 ---
 ![A look at a form's PDF list](https://gpdfv4.pv/app/uploads/2015/10/pdf-list.png) 

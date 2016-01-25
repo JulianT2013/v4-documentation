@@ -6,7 +6,7 @@ post_date: 2015-10-21 02:20:59
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-hide-form-fields/
+  https://gpdfv4.pv/documentation/v4/user-hide-form-fields/
 published: true
 kodex_post_likes_count:
   - "1"

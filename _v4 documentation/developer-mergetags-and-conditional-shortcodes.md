@@ -6,7 +6,7 @@ post_date: 2015-11-02 01:24:43
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-mergetags-and-conditional-shortcodes/
+  https://gpdfv4.pv/documentation/v4/developer-mergetags-and-conditional-shortcodes/
 published: true
 ---
 ### Introduction [#introduction](#introduction){#introduction}

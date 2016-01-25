@@ -6,7 +6,7 @@ post_date: 2015-10-21 04:10:38
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-importing-exporting-and-duplicating/
+  https://gpdfv4.pv/documentation/v4/user-importing-exporting-and-duplicating/
 published: true
 ---
 ![When forms are duplicated PDF settings go with it](https://gpdfv4.pv/app/uploads/2015/10/sticky-glue-pdf-settings.png) 

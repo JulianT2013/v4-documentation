@@ -6,7 +6,7 @@ post_date: 2015-10-22 03:25:45
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-supported-pdf-viewers/
+  https://gpdfv4.pv/documentation/v4/user-supported-pdf-viewers/
 published: true
 ---
 Gravity PDF officially supports the [free Adobe Reader software](https://get.adobe.com/reader/) as Adobe is the company who developed the [PDF specification](http://www.adobe.com/devnet/pdf/pdf_reference.html). This means if a PDF generated with Gravity PDF has display issues in your PDF reader but shows correctly in Adobe Reader we won't consider it a bug. 

@@ -6,7 +6,7 @@ post_date: 2015-11-02 06:07:44
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-php-form-data-array/
+  https://gpdfv4.pv/documentation/v4/developer-php-form-data-array/
 published: true
 kodex_post_likes_count:
   - "1"

@@ -6,7 +6,7 @@ post_date: 2015-11-04 02:04:00
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/development-helper-parameters/
+  https://gpdfv4.pv/documentation/v4/development-helper-parameters/
 published: true
 kodex_post_likes_count:
   - "0"

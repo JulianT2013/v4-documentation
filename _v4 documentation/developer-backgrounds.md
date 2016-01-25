@@ -6,7 +6,7 @@ post_date: 2015-11-09 02:43:32
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-backgrounds/
+  https://gpdfv4.pv/documentation/v4/developer-backgrounds/
 published: true
 kodex_post_likes_count:
   - "1"

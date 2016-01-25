@@ -6,7 +6,7 @@ post_date: 2015-11-04 02:57:23
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-supported-html-and-css/
+  https://gpdfv4.pv/documentation/v4/developer-supported-html-and-css/
 published: true
 kodex_post_likes_count:
   - "1"

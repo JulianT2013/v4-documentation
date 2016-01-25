@@ -6,7 +6,7 @@ post_date: 2015-10-22 00:25:33
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/user-increasing-memory-limit/
+  https://gpdfv4.pv/documentation/v4/user-increasing-memory-limit/
 published: true
 ---
 > The following article is technical in nature so if you don't feel comfortable making changes to files via (s)FTP, or from your hosting control panel, you should contact your web hosting provider for assistance.

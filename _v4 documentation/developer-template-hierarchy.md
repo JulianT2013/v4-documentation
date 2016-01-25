@@ -6,7 +6,7 @@ post_date: 2015-11-04 00:56:48
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-template-hierarchy/
+  https://gpdfv4.pv/documentation/v4/developer-template-hierarchy/
 published: true
 kodex_post_likes_count:
   - "1"

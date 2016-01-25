@@ -6,7 +6,7 @@ post_date: 2015-11-07 09:09:49
 post_excerpt: ""
 layout: v4_docs
 permalink: >
-  https://gpdfv4.pv/v4-docs/developer-images/
+  https://gpdfv4.pv/documentation/v4/developer-images/
 published: true
 kodex_post_likes_count:
   - "1"
