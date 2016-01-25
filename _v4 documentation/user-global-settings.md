@@ -99,9 +99,9 @@ The tools tab contains useful functions for power users. You can install additio
 This tab is only available to users with the `gravityforms_edit_settings` capability. By default this is administrators and network super admins (if running a multisite).
 
 Setup Custom Templates [#custom-templates](#custom-templates){#custom-templates}
-:    Gravity PDF uses a templating system similar to WordPress' child themes. The core templates that ship with the plugin are located in the `/initialisation/templates/` directory (it acts like a parent theme), however you cannot modify these files without losing your changes when the plugin is updated. To circumvent this issue templates can be placed in the plugin's working directory `/wp-content/uploads/PDF_EXTENDED_TEMPLATES/` (the child theme in our analogy). From here you can edit the templates as you see fit and you won't loose your modifications during updates. 
+:    Gravity PDF uses a templating system similar to WordPress' child themes. The core templates that ship with the plugin are located in the `/initialisation/templates/` directory (it acts like a parent theme), however you cannot modify these files without losing your changes when the plugin is updated. To circumvent this issue templates can be placed in the plugin's working directory `/wp-content/uploads/PDF_EXTENDED_TEMPLATES/` (the child theme in our analogy). From here you can edit the templates as you see fit and you won't lose your modifications during updates. 
 :    The *Setup Custom Templates* option copies all the core templates to the `PDF_EXTENDED_TEMPLATES` directory. If you have previously run this setup the core files in your `PDF_EXTENDED_TEMPLATES` directory will be overridden. 
-:    Before running this function it's recommended you [review our developer's guide to templating](https://gpdfv4.pv/v4-docs/developer-start-customising/).
+:    Before running this function it's recommended that you [review our developer's guide to templating](https://gpdfv4.pv/v4-docs/developer-start-customising/).
 
 Fonts [#fonts](#fonts){#fonts}
 :    The font manager allows you to install any TTF or OTF font and use it in your PDFs. There are two required fields when adding a new font:
